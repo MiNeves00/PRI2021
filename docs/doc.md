@@ -2,7 +2,7 @@
 
 ## Data Preparation
 
-Data Source:  https://developer.riotgames.com/docs/lol#data-dragon 
+Data Source:  https://developer.riotgames.com/docs/lol#data-dragon -> https://ddragon.leagueoflegends.com/cdn/dragontail-11.22.1.tgz
 
 Data Language: EN-US
 
@@ -13,7 +13,7 @@ Data Format: JSON
 
 Fields:
 
-type;key;name;title;lore;allytips;enemytips;tags;partype;info(attack;defense;magic;dificulty);stats(hp;hpperlevel;mp;mpperlevel;movespeed;armor;armorperlevel;spellblock;spellblockperlevel;attackrange;hpregen;hpregenperlevel;mpregen;mpregenperlevel;crit;critperlevel;attackdamage;attackdamageperlevel;attackspeedperlevel;attackspeed);spells(id;name;description;tooltip);leveltip(label)
+type;key;name;title;lore;allytips;enemytips;tags;partype;info(attack;defense;magic;dificulty);stats(hp;hpperlevel;mp;mpperlevel;movespeed;armor;armorperlevel;spellblock;spellblockperlevel;attackrange;hpregen;hpregenperlevel;mpregen;mpregenperlevel;crit;critperlevel;attackdamage;attackdamageperlevel;attackspeedperlevel;attackspeed);spells(id;name;description;tooltip);leveltip(label);passive(name;description);
 
 * Items
 
