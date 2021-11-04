@@ -13,7 +13,7 @@ Data Format: JSON
 
 Fields:
 
-type;key;name;title;lore;allytips;enemytips;tags;partype;info(attack;defense;magic;dificulty);stats(hp;hpperlevel;mp;mpperlevel;movespeed;armor;armorperlevel;spellblock;spellblockperlevel;attackrange;hpregen;hpregenperlevel;mpregen;mpregenperlevel;crit;critperlevel;attackdamage;attackdamageperlevel;attackspeedperlevel;attackspeed);spells(id;name;description;tooltip);leveltip(label);passive(name;description);
+type;key;name;title;skinsname;skinschromas;lore;allytips;enemytips;tags;partype;info(attack;defense;magic;dificulty);stats(hp;hpperlevel;mp;mpperlevel;movespeed;armor;armorperlevel;spellblock;spellblockperlevel;attackrange;hpregen;hpregenperlevel;mpregen;mpregenperlevel;crit;critperlevel;attackdamage;attackdamageperlevel;attackspeedperlevel;attackspeed);spells(id;name;description;tooltip;leveltip(label));passive(name;description);
 
 * Items
 
@@ -21,6 +21,13 @@ Fields:
 
 name;plaintext;gold(base;purchasable;total;sell;);tags;stats(includesmanystatmods);
 
+### Pipeline
+
+* Convert JSON to CSV
+
+* Determine desired atributes
+
+* Eliminate columns of undesired atributes
 
 
 
