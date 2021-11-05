@@ -21,6 +21,11 @@ Fields:
 
 name;plaintext;gold(base;purchasable;total;sell;);tags;stats(includesmanystatmods);
 
+### TODO
+
+* Delete uninteresting columns from items, improve uml, agregate some columns like item mods and allytips
+* Knowledge graphs extract relations
+
 ### Pipeline
 
 * Convert JSON to CSV
