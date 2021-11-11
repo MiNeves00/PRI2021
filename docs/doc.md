@@ -23,8 +23,8 @@ name;plaintext;gold(base;purchasable;total;sell;);tags;stats(includesmanystatmod
 
 ### TODO
 
-* Delete uninteresting columns from items, improve uml, agregate some columns like item mods and allytips
 * Knowledge graphs extract relations
+* UML -> Eleminar leveltip (dar colapse cm label)
 
 ### Pipeline
 
