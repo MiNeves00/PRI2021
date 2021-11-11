@@ -34,6 +34,8 @@ name;plaintext;gold(base;purchasable;total;sell;);tags;stats(includesmanystatmod
 
 * Eliminate columns of undesired atributes
 
+* Add new atributes derived from others (TODO , stats at 11 and 18)
+
 
 
 ## Information Retrieval
