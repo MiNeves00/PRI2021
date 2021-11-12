@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.9.003">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.9.003" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="open_file" compatibility="9.9.003" expanded="true" height="68" name="Open File" width="90" x="179" y="289">
+        <parameter key="resource_type" value="repository blob entry"/>
+        <parameter key="repository_entry" value="../dragontail-11.22.1/11.22.1/data/en_US/championFull.json"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="Read Document" width="90" x="313" y="289">
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:json_to_data" compatibility="9.3.001" expanded="true" height="82" name="JSON To Data" width="90" x="514" y="289">
+        <parameter key="ignore_arrays" value="false"/>
+        <parameter key="limit_attributes" value="false"/>
+        <parameter key="skip_invalid_documents" value="false"/>
+        <parameter key="guess_data_types" value="true"/>
+        <parameter key="keep_missing_attributes" value="false"/>
+        <parameter key="missing_values_aliases" value=", null, NaN, missing"/>
+      </operator>
+      <connect from_op="Open File" from_port="file" to_op="Read Document" to_port="file"/>
+      <connect from_op="Read Document" from_port="output" to_op="JSON To Data" to_port="documents 1"/>
+      <connect from_op="JSON To Data" from_port="example set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>
