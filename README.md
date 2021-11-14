@@ -9,8 +9,8 @@ Pedro Coelho upxxxxxxxx
 
 
 ##TO DO
-Scrapping do lore
-makefile 
-report
-colunas stats a lvl18 
-pipeline(no fim) 
+Scrapping do lore <br>
+makefile <br>
+report<br>
+colunas stats a lvl18 <br>
+pipeline(no fim) <br>
