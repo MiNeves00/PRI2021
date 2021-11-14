@@ -8,11 +8,13 @@
 ###
 
 # List of data_sets to parse
-data_sets := champions items
+data_sets := champion item
 data := dragontail
 
-# Data destination folder
-path := csv
+# Paths
+csv_path := csv
+src_path := src
+
 
 # URLs and programme codes to get data from
 YEAR := 2021
@@ -34,18 +36,36 @@ dragontail_version := $(data)$(VERSION)
 all: $(data_sets)
 	echo "Processed all data sets: $(data_sets)"
 
-# Retrieves dragontail data
+
+# Retrieves dragontail data from official website
 $(dragontail_version).tgz:
 	curl $(dragon_tail_URL) > $(dragontail_version).tgz
 	echo "Downloaded '$(dragontail_version)'.tgz file"
+
 
 # Unzips dragontail data
 $(dragontail_version): $(dragontail_version).tgz
 	tar zxvf $(dragontail_version).tgz > $(dragontail_version)
 	echo "Unziped '$(dragontail_version)'.tgz to folder"
 
-# Selects JSON data_sets
-%.json: 
+
+# Convert JSON data_sets into CSV using python pandas and save them in csv folder
+champions.csv: $(dragontail_version)
+	python $(src_path)/json_to_csv.py $(dragontail_version)/$(VERSION)/data/en_US/champion.json csv_path/champions.csv
+	echo "Converted champion.json to csv and stored it in folder "$(csv_path)
+# Reorganizing csv columns for champion (skins, spells) and removing missing rows using python.
+# This step is required because data was all spread through rows and columns instead of being all the data in each row (further explained in report)
+	python $(src_path)/organize_some_cols_to_rows.py csv_path/champions.csv
+	echo "Organized skins and spells rows properly and cleaned empty rows"
+
+items.csv: $(dragontail_version)
+	python $(src_path)/json_to_csv.py $(dragontail_version)/$(VERSION)/data/en_US/item.json csv_path/items.csv
+	echo "Converted item.json to csv and stored it in folder "$(csv_path)
+
+json_to_csv: champions.csv items.csv
+
+
+
 
 # Rule to parse programmes
 # Uses 'static-pattern rules' to math the course handle
