@@ -8,7 +8,7 @@ João Gonçalves upxxxxxx
 Pedro Coelho upxxxxxxxx
 
 
-##TO DO
+##TO DO <br>
 Scrapping do lore <br>
 makefile <br>
 report<br>
