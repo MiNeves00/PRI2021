@@ -9,7 +9,7 @@ Pedro Coelho upxxxxxxxx
 
 
 ##TO DO <br>
-Scrapping do lore <br>
+Scraping do lore <br>
 makefile <br>
 report<br>
 colunas stats a lvl18 <br>
