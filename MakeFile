@@ -10,6 +10,7 @@
 # List of data_sets to parse
 data_sets := champion item
 data := dragontail
+lore_data_url :=  https://lol.fandom.com/wiki/
 
 # Paths
 csv_path := csv
@@ -50,21 +51,29 @@ $(dragontail_version): $(dragontail_version).tgz
 
 
 # Convert JSON data_sets into CSV using python pandas and save them in csv folder
-champions.csv: $(dragontail_version)
+champions_to_csv: $(dragontail_version)
 	python $(src_path)/json_to_csv.py $(dragontail_version)/$(VERSION)/data/en_US/champion.json csv_path/champions.csv
 	echo "Converted champion.json to csv and stored it in folder "$(csv_path)
-# Reorganizing csv columns for champion (skins, spells) and removing missing rows using python.
-# This step is required because data was all spread through rows and columns instead of being all the data in each row (further explained in report)
-	python $(src_path)/organize_some_cols_to_rows.py csv_path/champions.csv
-	echo "Organized skins and spells rows properly and cleaned empty rows"
+
 
 items.csv: $(dragontail_version)
 	python $(src_path)/json_to_csv.py $(dragontail_version)/$(VERSION)/data/en_US/item.json csv_path/items.csv
 	echo "Converted item.json to csv and stored it in folder "$(csv_path)
 
+
+# Reorganizing csv columns for champion (skins, spells) and removing missing rows using python.
+# This step is required because data was all spread through rows and columns instead of being all the data in each row (further explained in report)
+champions_organize_col: champions_to_csv
+	python $(src_path)/organize_some_cols_to_rows.py csv_path/champions.csv
+	echo "Organized skins and spells rows properly and cleaned empty rows"
+
+
+# Scrap lore from unofficial website using python since lore on dragontail data set was incomplete and append to champions csv
+champions.csv : champions_organize_col
+	python $(src_path)/scrap.py csv_path/champions.csv csv_path/champions.csv csv_path/champions.csv $(lore_data_url)
+	echo "Scraped complete lore for each champion from '$(lore_data_url)'"
+
 json_to_csv: champions.csv items.csv
-
-
 
 
 # Rule to parse programmes
