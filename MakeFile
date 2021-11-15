@@ -29,13 +29,11 @@ dragontail_version := $(data)$(VERSION)
 # Rules section
 ###
 
-# Need to inform what to keep, otherwise these output files would be deleted
-.PRECIOUS: $(addprefix $(path)/, %.csv)
 
 # Starting target rule 'all'
 # Processes all data_sets defined
-all: $(data_sets)
-	echo "Processed all data sets: $(data_sets)"
+all: data_sets_csv charts
+	echo "Processed all data sets and made charts of their data"
 
 
 # Retrieves dragontail data from official website
@@ -69,56 +67,24 @@ champions_organize_col: champions_to_csv
 
 
 # Scrap lore from unofficial website using python since lore on dragontail data set was incomplete and append to champions csv
-champions.csv : champions_organize_col
+champions_with_lore : champions_organize_col
 	python $(src_path)/scrap.py csv_path/champions.csv csv_path/champions.csv csv_path/champions.csv $(lore_data_url)
 	echo "Scraped complete lore for each champion from '$(lore_data_url)'"
 
-json_to_csv: champions.csv items.csv
+
+# Use NER (Name Entity Recognition) to retrieve entities (persons, locations, nationalities and events) from the lore of each character (labels of new columns explained in report)
+champions.csv : champions_with_lore
+	python $(src_path)/lore_ner.py csv_path/champions.csv csv_path/champions.csv
+	echo "NER completed for the lore of each champion and stored in champions.csv"
 
 
-# Rule to parse programmes
-# Uses 'static-pattern rules' to math the course handle
-$(data_sets): % : %_courses
-	echo "Done parsing data_set $*:\n$($*_courses)\n"
-	$(MAKE) $($*_courses)
+data_sets_csv: champions.csv items.csv
+
+# Characterize data by making charts about data and storing them in charts folder
+charts: data_sets_csv
+	python $(src_path)/make_charts.py csv_path/champions.csv csv_path/items.csv
+	echo "Created charts for champions and items data"
 
 
-# To-DO: Rule to parse each individual course
-course_%:
-	echo "=>Processing course with id $*"
-
-
-# Rule to parse each programme's courses
-# Requires a .tsv file for each programme
-# Creates a variable %_courses with a list of course ids separated with spaces
-%_courses: $(path)/%.courses.tsv
-# sed to add a 'course_' prefix to each line
-# xargs at the end to trim all whitespaces
-	$(eval $@ := $(shell cat $< | cut -f1 | sed -e "s/.*/course_&/" | tr "\n" " " | xargs))
-	echo "Prepared course list for $@: $($@)"
-
-# Rule to prepare .tsv file with all courses found for a programme
-# Requires a programme's HTML file to parse
-$(path)/%.courses.tsv: $(path)/%.html
-	cat $< | ./parse-program-html.sh > $@
-	echo "Parsed HTML file to TSV at $@"
-
-# Rule to obtain the HTML file for a programme from the web (need to convert from ISO to UTF-8)
-# Requires the destination folder to be created (data)
-$(path)/%.html: $(path)
-	curl -s -Lo $(path)/$*.iso.html $($*_URL)
-	iconv -f ISO-8859-1 -t UTF-8 $(path)/$*.iso.html > $@
-	rm $(path)/$*.iso.html
-	echo "Downloaded $* HTML file"
-
-# Create data folder.
-$(path):
-	mkdir $(path)
-	echo "Created '$(path)' folder"
-
-# Clean all, remove all folders.
-clean:
-	rm -Rf $(path)
-	echo "Deleted '$(path)' folder"
 
 # EOF
