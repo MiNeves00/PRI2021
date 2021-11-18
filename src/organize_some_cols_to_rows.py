@@ -61,6 +61,7 @@ def remove_empty_rows(df):
             df = df.drop(i)
 
         i+=1
+        
 
 
 def main(csv_path):
