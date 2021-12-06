@@ -1,0 +1,57 @@
+<types>
+
+  <fieldType name="championsNames" class="solr.TextField">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.BeiderMorseFilterFactory" nameType="GENERIC" ruleType="APPROX" concat="true" languageSet="English"> <!-- Phonetic Matching allows for concat -->
+        <filter class="solr.ClassicFilterFactory"/> <!-- Removes ' and 's -->
+        <filter class="solr.EdgeNGramFilterFactory" minGramSize="5" maxGramSize="8" preserveOriginal="true"/>
+        <filter class="solr.EnglishMinimalStemFilterFactory"/>
+        <filter class="solr.EnglishPossessiveFilterFactory"/>
+        <filter class="solr.ManagedSynonymGraphFilterFactory" managed="english"/>
+  	<filter class="solr.FlattenGraphFilterFactory"/> <!-- required on index analyzers after graph filters -->
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        
+        <!-- check <filter class="solr.ICUFoldingFilterFactory"/> -->
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true">
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+  </fieldType>
+
+  <fieldType name="bigText" class="solr.TextField">
+      <analyzer type="index">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <filter class="solr.BeiderMorseFilterFactory" nameType="GENERIC" ruleType="APPROX" concat="true" languageSet="English"> <!-- Phonetic Matching allows for concat -->
+        <filter class="solr.ClassicFilterFactory"/> <!-- Removes ' and 's -->
+        <filter class="solr.HunspellStemFilterFactory" dictionary="en_GB.dic" affix="en_GB.aff"   ignoreCase="true"  strictAffixParsing="true" />
+        <filter class="solr.EnglishPossessiveFilterFactory"/>
+        <filter class="solr.FingerprintFilterFactory" separator="_" />
+        <filter class="solr.ManagedSynonymGraphFilterFactory" managed="english"/>
+  	<filter class="solr.FlattenGraphFilterFactory"/> <!-- required on index analyzers after graph filters -->
+  	<filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        
+        <!-- check <filter class="solr.ICUFoldingFilterFactory"/> -->
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.StandardTokenizerFactory"/>
+        <filter class="solr.ASCIIFoldingFilterFactory" preserveOriginal="true">
+        <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+  </fieldType>
+
+
+</types>
+
+
+<fields>
+  <field name="name" type="championsNames" indexed="true" stored="true" required="true" /> 
+  <field name="title" type="championsNames" indexed="true" stored="true" required="true" /> 
+
+</fields>

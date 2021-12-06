@@ -10,6 +10,9 @@ curl -X POST -H 'Content-type:application/json' \
     --data-binary @/data/schema.json \
     http://localhost:8983/solr/champions/schema
 
+
+
+
 sleep 5
 
 # Populate collection
