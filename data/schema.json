@@ -1,7 +1,7 @@
 {
 	"add-field-type": [
         {
-            "name":"courseTitle",
+            "name":"championsNames",
             "class":"solr.TextField",
             "indexAnalyzer":{
                 "tokenizer":{
@@ -23,11 +23,28 @@
             }
         }
     ],
+    
     "add-field": [
         {
+            "name": "name",
+            "type": "championsNames",
+            "indexed": true
+        },
+        {
             "name": "title",
-            "type": "courseTitle",
+            "type": "championsNames",
+            "indexed": true
+        },
+        {
+            "name": "tags__001",
+            "type": "championsNames",
+            "indexed": true
+        },
+        {
+            "name": "tags__002",
+            "type": "championsNames",
             "indexed": true
         }
-    ]
+    ],
+    
 }
