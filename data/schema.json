@@ -9,7 +9,8 @@
                 },
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             },
             "queryAnalyzer":{
@@ -18,11 +19,55 @@
                 },
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             }
         }
     ],
+
+    "add-field-type": [
+        {
+            "name":"bigText",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
+                    {"class":"solr.BeiderMorseFilterFactory" ,"nameType":"GENERIC", "ruleType":"APPROX", "concat":"true", "languageSet":"English"},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.HunspellStemFilterFactory", "dictionary":"en_GB.dic", "affix":"en_GB.aff"  , "ignoreCase":"true" , "strictAffixParsing":"true"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"},
+                    {"class":"solr.FingerprintFilterFactory"},
+                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
+                    {"class":"solr.FlattenGraphFilterFactory"},
+                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
+
+
+                ]},
+                "queryAnalyzer":{
+                    "tokenizer":{
+                        "class":"solr.StandardTokenizerFactory"
+                    },
+                    "filters":[
+                        {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                        {"class":"solr.LowerCaseFilterFactory"}
+                    ]
+            }
+        }
+    ],
+
+
+
+
+             
+
+
+
     
     "add-field": [
         {
@@ -45,6 +90,6 @@
             "type": "championsNames",
             "indexed": true
         }
-    ],
+    ]
     
 }
