@@ -23,10 +23,7 @@
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             }
-        }
-    ],
-
-    "add-field-type": [
+        },
         {
             "name":"bigText",
             "class":"solr.TextField",
@@ -40,29 +37,34 @@
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
                     {"class":"solr.BeiderMorseFilterFactory" ,"nameType":"GENERIC", "ruleType":"APPROX", "concat":"true", "languageSet":"English"},
                     {"class":"solr.ClassicFilterFactory"},
-                    {"class":"solr.HunspellStemFilterFactory", "dictionary":"en_GB.dic", "affix":"en_GB.aff"  , "ignoreCase":"true" , "strictAffixParsing":"true"},
                     {"class":"solr.EnglishPossessiveFilterFactory"},
                     {"class":"solr.FingerprintFilterFactory"},
                     {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
                     {"class":"solr.FlattenGraphFilterFactory"},
                     {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
-
-
-                ]},
-                "queryAnalyzer":{
-                    "tokenizer":{
-                        "class":"solr.StandardTokenizerFactory"
-                    },
-                    "filters":[
-                        {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                        {"class":"solr.LowerCaseFilterFactory"}
-                    ]
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"}
+                    
+                ]
             }
         }
+
+
+
+
     ],
-
-
-
+    
+    
+    
+    
+    
 
              
 
@@ -89,6 +91,11 @@
             "name": "tags__002",
             "type": "championsNames",
             "indexed": true
+        },
+        {
+            "name":"lore",
+            "type":"championsNames",
+            "indexed":true
         }
     ]
     
