@@ -10,7 +10,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             },
             "queryAnalyzer":{
@@ -20,7 +20,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             }
         },
@@ -35,13 +35,10 @@
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
-                    {"class":"solr.BeiderMorseFilterFactory" ,"nameType":"GENERIC", "ruleType":"APPROX", "concat":"true", "languageSet":"English"},
+
                     {"class":"solr.ClassicFilterFactory"},
-                    {"class":"solr.EnglishPossessiveFilterFactory"},
-                    {"class":"solr.FingerprintFilterFactory"},
-                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
-                    {"class":"solr.FlattenGraphFilterFactory"},
-                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
                 ]
             },
             "queryAnalyzer":{
@@ -52,13 +49,10 @@
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
-                    {"class":"solr.BeiderMorseFilterFactory" ,"nameType":"GENERIC", "ruleType":"APPROX", "concat":"true", "languageSet":"English"},
+
                     {"class":"solr.ClassicFilterFactory"},
-                    {"class":"solr.EnglishPossessiveFilterFactory"},
-                    {"class":"solr.FingerprintFilterFactory"},
-                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
-                    {"class":"solr.FlattenGraphFilterFactory"},
-                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
                     
                 ]
             }
@@ -87,24 +81,86 @@
         },
         {
             "name": "title",
-            "type": "championsNames",
+            "type": "bigText",
             "indexed": true
         },
         {
-            "name": "tags__001",
-            "type": "championsNames",
-            "indexed": true
-        },
-        {
-            "name": "tags__002",
+            "name": "tags",
             "type": "championsNames",
             "indexed": true
         },
         {
             "name":"lore",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name": "allytips",
+            "type": "bigText",
+            "indexed": true
+        },
+        {
+            "name": "enemytips",
+            "type": "bigText",
+            "indexed": true
+        },
+        {
+
+            "name": "skins",
+            "type": "championsNames",
+            "indexed": true
+        },
+        {
+            "name":"spells__Q",
             "type":"championsNames",
             "indexed":true
+        },
+        {
+            "name":"spells__Q_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__W",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__W_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__E",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__E_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__R",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__R_description",
+            "type":"bigText",
+            "indexed":true
+	},
+        {
+            "name":"passive__name",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"passive__description",
+            "type":"bigText",
+            "indexed":true
         }
+
     ]
     
 }
