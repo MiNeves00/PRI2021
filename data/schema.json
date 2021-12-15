@@ -37,7 +37,7 @@
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
-                    {"class":"solr.EnglishPossessiveFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
 
                 ]
             },
@@ -51,7 +51,7 @@
                     {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
-                    {"class":"solr.EnglishPossessiveFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
 
                     
                 ]
@@ -85,10 +85,16 @@
             "indexed": true
         },
         {
-            "name": "tags",
+            "name": "tags__001",
             "type": "championsNames",
             "indexed": true
         },
+        {
+            "name": "tags__002",
+            "type": "championsNames",
+            "indexed": true
+        },
+    
         {
             "name":"lore",
             "type":"bigText",
@@ -106,7 +112,7 @@
         },
         {
             "name": "skins",
-            "type": "name",
+            "type": "championsNames",
             "indexed": true
         }
 
