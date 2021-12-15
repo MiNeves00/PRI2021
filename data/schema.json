@@ -85,10 +85,16 @@
             "indexed": true
         },
         {
-            "name": "tags",
+            "name": "tags__001",
             "type": "championsNames",
             "indexed": true
         },
+        {
+            "name": "tags__002",
+            "type": "championsNames",
+            "indexed": true
+        },
+    
         {
             "name":"lore",
             "type":"bigText",
