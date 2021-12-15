@@ -120,7 +120,7 @@ def organize():
     df.drop(["enemytips__003"],axis=1)
     df.drop(["enemytips__004"],axis=1)
 
-
+    df.drop()
     df["enemytips"]=enemytips_coluna
 
     
