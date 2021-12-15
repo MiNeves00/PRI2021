@@ -1,0 +1,200 @@
+name,plaintext,gold__base,gold__total,gold__sell,tags
+Boots,Slightly increases Movement Speed,300,300,210,['Boots']
+Faerie Charm,Slightly increases Mana Regen,250,250,175,['ManaRegen']
+Rejuvenation Bead,Slightly increases Health Regen,150,150,105,['HealthRegen']
+Giant's Belt,Greatly increases Health,500,900,630,['Health']
+Cloak of Agility,Increases critical strike chance,600,600,420,['CriticalStrike']
+Blasting Wand,Moderately increases Ability Power,850,850,595,['SpellDamage']
+Sapphire Crystal,Increases Mana,350,350,245,['Mana']
+Ruby Crystal,Increases Health,400,400,280,['Health']
+Cloth Armor,Slightly increases Armor,300,300,210,['Armor']
+Chain Vest,Greatly increases Armor,500,800,560,['Armor']
+Null-Magic Mantle,Slightly increases Magic Resist,450,450,315,['SpellBlock']
+Emberknife,,350,350,140,"['LifeSteal', 'SpellVamp', 'Jungle']"
+Long Sword,Slightly increases Attack Damage,350,350,245,"['Damage', 'Lane']"
+Pickaxe,Moderately increases Attack Damage,875,875,613,['Damage']
+B. F. Sword,Greatly increases Attack Damage,1300,1300,910,['Damage']
+Hailblade,Provides damage against Monsters and Mana Regen in the Jungle,350,350,140,"['LifeSteal', 'SpellVamp', 'Jungle']"
+Dagger,Slightly increases Attack Speed,300,300,210,['AttackSpeed']
+Recurve Bow,Greatly increases Attack Speed,400,1000,700,"['AttackSpeed', 'OnHit']"
+Amplifying Tome,Slightly increases Ability Power,435,435,305,['SpellDamage']
+Vampiric Scepter,Basic attacks restore Health,550,900,630,"['Damage', 'LifeSteal']"
+Doran's Shield,Good defensive starting item,450,450,180,"['Health', 'HealthRegen', 'Lane']"
+Doran's Blade,Good starting item for attackers,450,450,180,"['Health', 'Damage', 'SpellVamp', 'Lane']"
+Doran's Ring,Good starting item for casters,400,400,160,"['Health', 'Lane', 'ManaRegen', 'SpellDamage']"
+Negatron Cloak,Moderately increases Magic Resist,450,900,630,['SpellBlock']
+Needlessly Large Rod,Greatly increases Ability Power,1250,1250,875,['SpellDamage']
+Dark Seal,Provides Ability Power and Mana.  Increases in power as you kill enemies.,350,350,140,"['Health', 'SpellDamage', 'Lane']"
+Cull,Provides damage and Life Steal on hit - Killing minions grant bonus Gold,450,450,180,"['Damage', 'LifeSteal', 'Lane']"
+Health Potion,Consume to restore Health over time,50,50,20,"['HealthRegen', 'Consumable', 'Lane', 'Jungle']"
+Total Biscuit of Everlasting Will,,50,50,5,[]
+Kircheis Shard,Attack speed and a chargable magic hit,400,700,490,['AttackSpeed']
+Refillable Potion,Restores Health over time. Refills at shop.,150,150,60,"['HealthRegen', 'Consumable', 'Active', 'Lane', 'Jungle']"
+Corrupting Potion,Restores Health and Mana over time and boosts combat power - Refills at Shop,350,500,200,"['Active', 'Consumable', 'HealthRegen', 'Lane', 'ManaRegen']"
+Guardian's Horn,Good starting item for tanks,950,950,665,"['Health', 'HealthRegen', 'Lane']"
+Poro-Snax,,0,0,0,[]
+Control Ward,Used to disable wards and invisible traps in an area.,75,75,30,"['Consumable', 'Lane', 'Stealth', 'Vision']"
+Shurelya's Battlesong,Activate to speed up nearby allies.,750,2500,1750,"['Health', 'SpellDamage', 'ManaRegen', 'Active', 'CooldownReduction', 'NonbootsMovement', 'AbilityHaste']"
+Elixir of Iron,Temporarily increases defenses. Leaves a trail for allies to follow.,500,500,200,"['Health', 'Consumable', 'NonbootsMovement', 'Tenacity']"
+Elixir of Sorcery,Temporarily grants Ability Power and Bonus Damage to champions and turrets.,500,500,200,"['Consumable', 'ManaRegen', 'SpellDamage']"
+Elixir of Wrath,Temporarily grants Attack Damage and heals you when dealing physical damage to champions.,500,500,200,"['Consumable', 'Damage', 'LifeSteal', 'SpellVamp']"
+Minion Dematerializer,,0,0,0,[]
+Commencing Stopwatch,,0,0,0,['Active']
+Stopwatch,Activate to become invincible but unable to take actions,650,650,260,['Active']
+Broken Stopwatch,Upgrades to stopwatch,650,650,260,[]
+Slightly Magical Footwear,,300,300,210,['Boots']
+Perfectly Timed Stopwatch,Activate to become invincible but unable to take actions,650,650,260,['Active']
+Broken Stopwatch,,650,650,260,[]
+Abyssal Mask,Nearby enemies take more magic damage,900,2700,1890,"['Health', 'SpellBlock']"
+Archangel's Staff,Increases Ability Power based on maximum Mana,915,3000,2100,"['SpellDamage', 'Mana', 'Active']"
+Manamune,Increases Attack Damage based on maximum Mana,1050,2900,2030,"['Damage', 'Mana', 'CooldownReduction', 'OnHit', 'AbilityHaste']"
+Berserker's Greaves,Enhances Movement Speed and Attack Speed,500,1100,770,"['AttackSpeed', 'Boots']"
+Boots of Swiftness,Enhances Movement Speed and reduces the effect of slows,600,900,630,['Boots']
+Chemtech Putrifier,,550,2300,1610,"['SpellDamage', 'ManaRegen', 'CooldownReduction', 'AbilityHaste']"
+Sorcerer's Shoes,Enhances Movement Speed and magic damage,800,1100,770,"['Boots', 'MagicPenetration']"
+Glacial Buckler,Increases Armor and Cooldown Reduction,250,900,630,"['Armor', 'Mana', 'CooldownReduction', 'AbilityHaste']"
+Guardian Angel,Periodically revives champion upon death,50,2800,1120,"['Armor', 'Damage']"
+Infinity Edge,Massively enhances critical strikes,625,3400,2380,"['CriticalStrike', 'Damage']"
+Mortal Reminder,Overcomes enemies with high Health recovery and Armor,650,2500,1750,"['Damage', 'CriticalStrike', 'AttackSpeed', 'NonbootsMovement']"
+Last Whisper,Overcomes enemies with high Armor,750,1450,1015,"['ArmorPenetration', 'Damage']"
+Lord Dominik's Regards,Overcomes enemies with high health and armor,950,3000,2100,"['Damage', 'CriticalStrike', 'ArmorPenetration']"
+Seraph's Embrace,,3000,3000,2100,"['SpellDamage', 'Mana']"
+Mejai's Soulstealer,Grants Ability Power for kills and assists,1250,1600,1120,"['Health', 'SpellDamage', 'NonbootsMovement']"
+Muramana,,3000,3000,2100,"['Damage', 'Mana', 'CooldownReduction', 'OnHit', 'ArmorPenetration']"
+Phage,Attacks and kills give a small burst of speed,350,1100,770,"['Health', 'HealthRegen', 'Damage']"
+Phantom Dancer,Move faster while attacking enemies and gain a shield when on low health.,850,2600,1820,"['Damage', 'CriticalStrike', 'AttackSpeed', 'NonbootsMovement']"
+Plated Steelcaps,Enhances Movement Speed and reduces incoming basic attack damage,500,1100,770,"['Armor', 'Boots']"
+Zeke's Convergence,Grants you and your ally bonuses when you cast your ultimate.,700,2400,1680,"['Health', 'Armor', 'Mana', 'Active', 'CooldownReduction', 'OnHit', 'AbilityHaste']"
+Hearthbound Axe,,450,1100,770,"['Damage', 'AttackSpeed', 'NonbootsMovement']"
+Sterak's Gage,Shields against large bursts of damage,725,3100,2170,"['Health', 'Damage']"
+Sheen,Grants a bonus to next attack after spell cast,700,700,490,['OnHit']
+Spirit Visage,Increases Health and healing effects,850,2900,2030,"['Health', 'SpellBlock', 'HealthRegen', 'CooldownReduction', 'AbilityHaste']"
+Winged Moonplate,,400,800,560,"['Health', 'NonbootsMovement']"
+Kindlegem,Increases Health and Cooldown Reduction,400,800,560,"['Health', 'CooldownReduction', 'AbilityHaste']"
+Sunfire Aegis,High armor. Constantly deals damage to nearby enemies. Immobilize enemies to release a wave of damaging flame,600,3200,2240,"['Health', 'SpellBlock', 'Armor', 'Aura', 'CooldownReduction', 'AbilityHaste']"
+Tear of the Goddess,Increases maximum Mana as Mana is spent,400,400,280,"['Mana', 'ManaRegen']"
+Black Cleaver,Dealing physical damage to enemy champions reduces their Armor,850,3100,2170,"['Health', 'Damage', 'CooldownReduction', 'OnHit', 'NonbootsMovement', 'ArmorPenetration', 'AbilityHaste']"
+Bloodthirster,"Grants Attack Damage, Life Steal and Life Steal now overheals",600,3400,2380,"['Damage', 'CriticalStrike', 'LifeSteal']"
+Ravenous Hydra,"Melee attacks hit nearby enemies, dealing damage and restoring Health",100,3300,2310,"['Damage', 'LifeSteal', 'CooldownReduction', 'SpellVamp', 'AbilityHaste']"
+Thornmail,,1000,2700,1890,"['Health', 'Armor']"
+Bramble Vest,,200,800,560,['Armor']
+Tiamat,Melee attacks hit nearby enemies,325,1200,840,['Damage']
+Trinity Force,Tons of Damage,733,3333,2333,"['Health', 'Damage', 'AttackSpeed', 'CooldownReduction', 'OnHit', 'NonbootsMovement', 'AbilityHaste']"
+Warden's Mail,,400,1000,700,['Armor']
+Warmog's Armor,Grants massive Health and Health Regen,650,3000,2100,"['Health', 'HealthRegen', 'CooldownReduction', 'AbilityHaste']"
+Runaan's Hurricane,Ranged attacks fire two bolts at nearby enemies,950,2600,1820,"['CriticalStrike', 'AttackSpeed', 'OnHit', 'NonbootsMovement']"
+Zeal,"Slight bonuses to Critical Strike Chance, Movement Speed and Attack Speed",150,1050,735,"['AttackSpeed', 'CriticalStrike', 'NonbootsMovement']"
+Rabadon's Deathcap,Massively increases Ability Power,1100,3600,2520,['SpellDamage']
+Wit's End,Resist magic damage and claw your way back to life.,750,3100,2170,"['SpellBlock', 'Damage', 'AttackSpeed', 'OnHit', 'NonbootsMovement']"
+Rapid Firecannon,Movement builds charges that release a sieging fire attack on release,750,2500,1750,"['CriticalStrike', 'AttackSpeed', 'NonbootsMovement']"
+Stormrazor,Tremendously empower other Energized effects.,100,2700,1890,"['Damage', 'CriticalStrike', 'AttackSpeed', 'Slow']"
+Lich Bane,Grants a bonus to next attack after spell cast,600,3000,2100,"['SpellDamage', 'OnHit', 'NonbootsMovement']"
+Banshee's Veil,Periodically blocks enemy abilities,700,2600,1820,"['SpellBlock', 'SpellDamage', 'CooldownReduction', 'AbilityHaste']"
+Aegis of the Legion,Grants Armor and Magic Resistance,750,1500,1050,"['SpellBlock', 'Armor', 'CooldownReduction', 'AbilityHaste']"
+Redemption,Activate to heal allies and damage enemies in an area,700,2300,1610,"['Health', 'ManaRegen', 'CooldownReduction', 'AbilityHaste']"
+Fiendish Codex,Increases Ability Power and Cooldown Reduction,465,900,630,"['SpellDamage', 'CooldownReduction', 'AbilityHaste']"
+Knight's Vow,Partner with an ally to protect each other,700,2300,1610,"['Health', 'HealthRegen', 'Aura', 'Active', 'CooldownReduction', 'NonbootsMovement', 'AbilityHaste']"
+Frozen Heart,Massively increases Armor and slows enemy basic attacks,600,2500,1750,"['Armor', 'Mana', 'Aura', 'CooldownReduction', 'AbilityHaste']"
+Mercury's Treads,Increases Movement Speed and reduces duration of disabling effects,350,1100,770,"['Boots', 'SpellBlock', 'Tenacity']"
+Guardian's Orb,Good starting item for mages,950,950,665,"['Health', 'SpellDamage', 'ManaRegen', 'Lane']"
+Aether Wisp,Increases Ability Power and Movement Speed,415,850,595,"['NonbootsMovement', 'SpellDamage']"
+Forbidden Idol,"Increases Heal and Shield Power, Mana Regeneration, and Cooldown Reduction",550,800,560,['ManaRegen']
+Nashor's Tooth,"Increases Attack Speed, Ability Power, and Cooldown Reduction",715,3000,2100,"['AttackSpeed', 'SpellDamage', 'OnHit']"
+Rylai's Crystal Scepter,Abilities slow enemies,815,3000,2100,"['Health', 'SpellDamage', 'Slow']"
+Mobility Boots,Greatly enhances Movement Speed when out of combat,700,1000,700,['Boots']
+Executioner's Calling,Overcomes enemies with high health gain,450,800,560,['Damage']
+Guinsoo's Rageblade,,900,2600,1820,"['CriticalStrike', 'AttackSpeed', 'OnHit']"
+Caulfield's Warhammer,Attack Damage and Cooldown Reduction,400,1100,770,"['Damage', 'CooldownReduction', 'AbilityHaste']"
+Serrated Dirk,Increases Attack Damage and Lethality,400,1100,770,"['Damage', 'ArmorPenetration']"
+Void Staff,Increases magic damage,600,2700,1890,"['MagicPenetration', 'SpellDamage']"
+Mercurial Scimitar,Activate to remove all crowd control debuffs and grant massive Movement Speed,225,3000,2100,"['SpellBlock', 'Damage', 'CriticalStrike', 'Active', 'NonbootsMovement', 'Tenacity']"
+Quicksilver Sash,Activate to remove all crowd control debuffs,850,1300,910,"['Active', 'SpellBlock']"
+Youmuu's Ghostblade,Activate to greatly increase Movement Speed,700,2900,2030,"['Damage', 'Active', 'NonbootsMovement', 'ArmorPenetration']"
+Randuin's Omen,"Greatly increases defenses, activate to slow nearby enemies",600,2700,1890,"['Health', 'Armor', 'Active', 'CooldownReduction', 'Slow', 'AbilityHaste']"
+Hextech Alternator,Increases Ability Power. Deal bonus magic damage on attack periodically.,180,1050,735,['SpellDamage']
+Hextech Rocketbelt,Activate to dash forward and unleash a fiery explosion,900,3200,2240,"['Health', 'SpellDamage', 'Active', 'CooldownReduction', 'NonbootsMovement', 'MagicPenetration', 'AbilityHaste']"
+Blade of The Ruined King,"Deals damage based on target's Health, can steal Movement Speed",425,3200,2240,"['Damage', 'AttackSpeed', 'LifeSteal', 'Slow', 'OnHit', 'NonbootsMovement']"
+Hexdrinker,Increases Attack Damage and Magic Resist,500,1300,910,"['Damage', 'SpellBlock']"
+Maw of Malmortius,Grants bonus Attack Damage when Health is low,400,2800,1960,"['SpellBlock', 'Damage', 'CooldownReduction', 'AbilityHaste']"
+Zhonya's Hourglass,Activate to become invincible but unable to take actions,50,2600,1820,"['Armor', 'SpellDamage', 'Active', 'CooldownReduction', 'AbilityHaste']"
+Ionian Boots of Lucidity,Increases Movement Speed and Cooldown Reduction,650,950,665,"['Boots', 'CooldownReduction']"
+Morellonomicon,Increases magic damage,450,2500,1750,"['Health', 'SpellDamage']"
+Guardian's Blade,Good starting item for attackers,950,950,665,"['Health', 'Damage', 'Lane', 'AbilityHaste']"
+Umbral Glaive,Provides trap and ward detection periodically,600,2400,1680,"['Damage', 'Vision', 'CooldownReduction', 'ArmorPenetration', 'AbilityHaste']"
+Hullbreaker,,825,2800,1960,"['Health', 'SpellBlock', 'Armor', 'Damage']"
+Guardian's Hammer,Good starting item for attackers,950,950,665,"['Health', 'Damage', 'LifeSteal', 'Lane']"
+Locket of the Iron Solari,Activate to shield nearby allies from damage,200,2500,1750,"['Health', 'SpellBlock', 'Armor', 'Aura', 'Active', 'CooldownReduction', 'AbilityHaste']"
+Seeker's Armguard,Increases Armor and Ability Power,265,1000,700,"['Armor', 'SpellDamage']"
+Gargoyle Stoneplate,Greatly increases defense near multiple enemies.,1050,3300,2310,"['SpellBlock', 'Armor', 'Active', 'CooldownReduction', 'AbilityHaste']"
+Spectre's Cowl,Improves defense and grants regeneration upon being damaged,400,1250,875,"['Health', 'HealthRegen', 'SpellBlock']"
+Mikael's Blessing,Activate to remove all disabling effects from an allied champion,600,2300,1610,"['SpellBlock', 'ManaRegen', 'Active', 'CooldownReduction', 'Tenacity', 'AbilityHaste']"
+Scarecrow Effigy,Periodically place a Stealth Ward,0,0,0,"['Active', 'Jungle', 'Lane', 'Trinket', 'Vision']"
+Stealth Ward,Periodically place a Stealth Ward,0,0,0,"['Active', 'Jungle', 'Lane', 'Trinket', 'Vision']"
+Farsight Alteration,Grants increased range and reveals the targetted area,0,0,0,"['Active', 'Trinket', 'Vision']"
+Oracle Lens,Disables nearby invisible wards and traps for a duration,0,0,0,"['Active', 'Trinket', 'Vision']"
+Your Cut,,0,0,0,"['Consumable', 'GoldPer']"
+Ardent Censer,Shield and heal effects on other units grant both of you Attack Speed and their attacks deal additional on-hit magic damage.,630,2300,1610,"['AttackSpeed', 'SpellDamage', 'ManaRegen', 'OnHit']"
+Essence Reaver,,400,2800,1960,"['Damage', 'CriticalStrike', 'ManaRegen', 'CooldownReduction', 'OnHit', 'AbilityHaste']"
+Eye of the Herald,Eye of the Herald - a Gift of the Void.,0,0,0,"['Trinket', 'Active']"
+Kalista's Black Spear,Kalista's spear that binds an Oathsworn Ally.,0,0,0,['Consumable']
+Kalista's Black Spear,Kalista's spear that binds an Oathsworn Ally.,0,0,0,['Consumable']
+Dead Man's Plate,Build momentum as you move around then smash into enemies.,900,2900,2030,"['Health', 'Armor', 'Slow', 'NonbootsMovement']"
+Titanic Hydra,Deals area of effect damage based on owner's health,800,3300,2310,"['Health', 'HealthRegen', 'Damage', 'OnHit']"
+Crystalline Bracer,Grants Health and Health Regen,100,650,455,"['Health', 'HealthRegen']"
+Lost Chapter,Restores Mana upon levelling up.,80,1300,910,"['SpellDamage', 'Mana', 'ManaRegen', 'CooldownReduction', 'AbilityHaste']"
+Edge of Night,Periodically blocks enemy abilities,1050,2900,2030,"['Health', 'Damage', 'ArmorPenetration']"
+Spellthief's Edge,Gain gold and upgrade by damaging enemy champions,400,400,160,"['Health', 'SpellDamage', 'ManaRegen', 'Vision', 'GoldPer', 'Lane']"
+Frostfang,,400,400,160,"['GoldPer', 'Lane', 'ManaRegen', 'SpellDamage']"
+Shard of True Ice,,400,400,160,"['GoldPer', 'Lane', 'ManaRegen', 'SpellDamage']"
+Steel Shoulderguards,Gain gold and upgrade by executing minions alongside allies,400,400,160,"['Health', 'HealthRegen', 'Damage', 'Vision', 'GoldPer', 'Lane']"
+Runesteel Spaulders,,400,400,160,"['Health', 'HealthRegen', 'GoldPer', 'Lane']"
+Pauldrons of Whiterock,,400,400,160,"['Health', 'HealthRegen', 'GoldPer', 'Lane']"
+Relic Shield,Gain gold and upgrade by executing minions alongside allies,400,400,160,"['Health', 'HealthRegen', 'SpellDamage', 'Vision', 'GoldPer', 'Lane']"
+Targon's Buckler,,400,400,160,"['Health', 'HealthRegen', 'GoldPer', 'Lane']"
+Bulwark of the Mountain,,400,400,160,"['Health', 'HealthRegen', 'GoldPer', 'Lane']"
+Spectral Sickle,Gain gold and upgrade by damaging enemy champions,400,400,160,"['Health', 'Damage', 'ManaRegen', 'Vision', 'GoldPer', 'Lane']"
+Harrowing Crescent,,400,400,160,"['Health', 'ManaRegen', 'GoldPer', 'Lane']"
+Black Mist Scythe,,400,400,160,"['Health', 'ManaRegen', 'GoldPer', 'Lane']"
+Oblivion Orb,Increases magic damage,365,800,560,['SpellDamage']
+Imperial Mandate,Defer damage until later.,750,2500,1750,"['Health', 'SpellDamage', 'ManaRegen', 'CooldownReduction', 'NonbootsMovement']"
+Force of Nature,"Movement Speed, Magic Resist, and max Health Regeneration",800,2900,2030,"['Health', 'SpellBlock', 'NonbootsMovement']"
+The Golden Spatula,It does EVERYTHING!,687,7487,5241,"['Health', 'SpellBlock', 'HealthRegen', 'Armor', 'Damage', 'CriticalStrike', 'AttackSpeed', 'LifeSteal', 'SpellDamage', 'Mana', 'ManaRegen', 'CooldownReduction', 'NonbootsMovement']"
+Horizon Focus,Immobilizing a champion causes lightning to strike them,700,3000,2100,['SpellDamage']
+Cosmic Drive,Massive amounts of Cooldown Reduction,865,3000,2100,"['Health', 'SpellDamage', 'CooldownReduction', 'NonbootsMovement', 'AbilityHaste']"
+Blighting Jewel,,815,1250,875,"['MagicPenetration', 'SpellDamage']"
+Verdant Barrier,,115,1000,700,"['SpellBlock', 'SpellDamage']"
+Riftmaker,,1050,3200,2240,"['Health', 'SpellDamage', 'CooldownReduction', 'SpellVamp', 'MagicPenetration', 'AbilityHaste']"
+Leeching Leer,,465,1300,910,"['Health', 'SpellDamage', 'SpellVamp']"
+Night Harvester,,900,3200,2240,"['Health', 'SpellDamage', 'CooldownReduction', 'NonbootsMovement', 'AbilityHaste']"
+Demonic Embrace,,815,3000,2100,"['Health', 'SpellDamage']"
+Watchful Wardstone,,1100,1100,770,"['Health', 'Vision', 'Active', 'CooldownReduction', 'AbilityHaste']"
+Bandleglass Mirror,,265,950,665,"['SpellDamage', 'ManaRegen', 'CooldownReduction', 'AbilityHaste']"
+Vigilant Wardstone,,0,1100,770,"['Health', 'Vision', 'Active', 'CooldownReduction', 'AbilityHaste']"
+Ironspike Whip,,225,1100,770,"['Damage', 'Active']"
+Silvermere Dawn,,425,3000,2100,"['Health', 'SpellBlock', 'Damage', 'Active', 'Tenacity']"
+Death's Dance,,325,3100,2170,"['Armor', 'Damage', 'CooldownReduction', 'AbilityHaste']"
+Chempunk Chainsword,,300,2600,1820,"['Health', 'Damage', 'CooldownReduction', 'AbilityHaste']"
+Staff of Flowing Water,Your heals and shields reduce crowd control and grant movement speed,630,2300,1610,"['SpellDamage', 'ManaRegen', 'AbilityHaste']"
+Moonstone Renewer,Your heals and shields cool down faster and have greater effect on low health allies,750,2500,1750,"['Health', 'SpellDamage', 'CooldownReduction']"
+Goredrinker,,300,3300,2310,"['Health', 'Damage', 'LifeSteal', 'Active', 'CooldownReduction', 'SpellVamp', 'AbilityHaste']"
+Stridebreaker,,300,3300,2310,"['Health', 'Damage', 'AttackSpeed', 'Active', 'CooldownReduction', 'Slow', 'NonbootsMovement', 'AbilityHaste']"
+Divine Sunderer,,700,3300,2310,"['Health', 'Damage', 'LifeSteal', 'CooldownReduction', 'OnHit', 'MagicPenetration', 'ArmorPenetration', 'AbilityHaste']"
+Liandry's Anguish,"Charge up in combat to deal high damage over time, especially against durable enemies",1000,3200,2240,"['SpellDamage', 'Mana', 'CooldownReduction', 'AbilityHaste']"
+Luden's Tempest,"High burst damage, good against fragile foes",1050,3200,2240,"['SpellDamage', 'Mana', 'CooldownReduction', 'NonbootsMovement', 'MagicPenetration', 'AbilityHaste']"
+Everfrost,,250,3200,2240,"['Health', 'SpellDamage', 'Mana', 'Active', 'CooldownReduction', 'Slow', 'AbilityHaste']"
+Bami's Cinder,,300,1100,770,['Health']
+Frostfire Gauntlet,"High Magic Resist.Passively slow nearby enemies. When spells are cast near you, release a wave of energy that damages and slows.",950,2800,1960,"['Health', 'SpellBlock', 'Armor', 'Aura', 'CooldownReduction', 'Slow', 'AbilityHaste']"
+Turbo Chemtank,Immobilize enemies to gain a shield. Activate to run faster at opponents.,950,2800,1960,"['Health', 'SpellBlock', 'Armor', 'Aura', 'Active', 'CooldownReduction', 'Slow', 'NonbootsMovement', 'Tenacity', 'AbilityHaste']"
+Noonquiver,,300,1300,910,"['Damage', 'AttackSpeed']"
+Galeforce,,625,3400,2380,"['Damage', 'CriticalStrike', 'AttackSpeed', 'Active', 'NonbootsMovement']"
+Kraken Slayer,,625,3400,2380,"['Damage', 'CriticalStrike', 'AttackSpeed', 'ArmorPenetration']"
+Immortal Shieldbow,,600,3400,2380,"['Health', 'Damage', 'CriticalStrike', 'AttackSpeed', 'LifeSteal']"
+Navori Quickblades,,825,3400,2380,"['Damage', 'CriticalStrike', 'CooldownReduction', 'AbilityHaste']"
+The Collector,,425,3000,2100,"['Damage', 'CriticalStrike', 'ArmorPenetration']"
+Rageknife,,200,800,560,"['AttackSpeed', 'OnHit']"
+Duskblade of Draktharr,,1000,3200,2240,"['Damage', 'Stealth', 'CooldownReduction', 'Slow', 'ArmorPenetration', 'AbilityHaste']"
+Eclipse,,850,3200,2240,"['Damage', 'LifeSteal', 'SpellVamp', 'NonbootsMovement', 'ArmorPenetration']"
+Prowler's Claw,,1000,3200,2240,"['Damage', 'Active', 'CooldownReduction', 'NonbootsMovement', 'ArmorPenetration', 'AbilityHaste']"
+Serylda's Grudge,,650,3200,2240,"['Damage', 'CooldownReduction', 'ArmorPenetration', 'AbilityHaste']"
+Serpent's Fang,,625,2600,1820,"['Damage', 'ArmorPenetration']"
+Anathema's Chains,,800,2500,1750,"['Health', 'Active', 'CooldownReduction', 'AbilityHaste']"
