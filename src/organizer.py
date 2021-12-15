@@ -134,7 +134,7 @@ def organize():
     df = df.drop(["stats_mpregen_lvl18"],axis=1)
     df = df.drop(["stats_attackdamage_lvl18"],axis=1)
     df = df.drop(["stats_attackdamageperlevel_lvl18"],axis=1)
-    #df = df.drop(["Unnamed__0"],axis=1)
+    df = df.drop(["Unnamed: 0.1"],axis=1)
     
     df = df.drop(["lore_gpe_0"],axis=1)
     df = df.drop(["lore_gpe_1"],axis=1)
