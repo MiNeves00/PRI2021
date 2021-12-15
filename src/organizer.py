@@ -34,21 +34,21 @@ def organize():
 
         
 
-    df.drop(["skins__name01"],axis=1)
-    df.drop(["skins__name02"],axis=1)
-    df.drop(["skins__name03"],axis=1)
-    df.drop(["skins__name04"],axis=1)
-    df.drop(["skins__name05"],axis=1)
-    df.drop(["skins__name06"],axis=1)
-    df.drop(["skins__name07"],axis=1)
-    df.drop(["skins__name08"],axis=1)
-    df.drop(["skins__name09"],axis=1)
-    df.drop(["skins__name010"],axis=1)
-    df.drop(["skins__name011"],axis=1)
-    df.drop(["skins__name012"],axis=1)
-    df.drop(["skins__name013"],axis=1)
-    df.drop(["skins__name014"],axis=1)
-    df.drop(["skins__name015"],axis=1)
+    df = df.drop(["skins__name01"],axis=1)
+    df = df.drop(["skins__name02"],axis=1)
+    df = df.drop(["skins__name03"],axis=1)
+    df = df.drop(["skins__name04"],axis=1)
+    df =df.drop(["skins__name05"],axis=1)
+    df =df.drop(["skins__name06"],axis=1)
+    df =df.drop(["skins__name07"],axis=1)
+    df =df.drop(["skins__name08"],axis=1)
+    df =df.drop(["skins__name09"],axis=1)
+    df =df.drop(["skins__name010"],axis=1)
+    df =df.drop(["skins__name011"],axis=1)
+    df =df.drop(["skins__name012"],axis=1)
+    df =df.drop(["skins__name013"],axis=1)
+    df =df.drop(["skins__name014"],axis=1)
+    df =df.drop(["skins__name015"],axis=1)
     df["skins"]=skins_coluna
     
     tags_coluna=[]
@@ -88,14 +88,13 @@ def organize():
         
         allytips_coluna.append(allytips_result)
 
-    df.drop(["allytips__001"],axis=1)
-    df.drop(["allytips__002"],axis=1)
-    df.drop(["allytips__003"],axis=1)
-    df.drop(["allytips__004"],axis=1)
-    df.drop(["allytips__005"],axis=1)
+    df = df.drop(["allytips__001"],axis=1)
+    df = df.drop(["allytips__002"],axis=1)
+    df = df.drop(["allytips__003"],axis=1)
+    df = df.drop(["allytips__004"],axis=1)
+    df = df.drop(["allytips__005"],axis=1)
     df["allytips"]=allytips_coluna
 
-    ###
     
     enemytips_coluna=[]
     
@@ -115,16 +114,16 @@ def organize():
         
         enemytips_coluna.append(enemytips_result)
 
-    df.drop(["enemytips__001"],axis=1)
-    df.drop(["enemytips__002"],axis=1)
-    df.drop(["enemytips__003"],axis=1)
-    df.drop(["enemytips__004"],axis=1)
+    df= df.drop(["enemytips__001"],axis=1)
+    df= df.drop(["enemytips__002"],axis=1)
+    df= df.drop(["enemytips__003"],axis=1)
+    df= df.drop(["enemytips__004"],axis=1)
 
 
     df["enemytips"]=enemytips_coluna
 
     
-
+    
     df.to_csv("data/csv/new_champions.csv",index=False)
 
 
