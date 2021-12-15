@@ -34,14 +34,11 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
-                    
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"},
-                    {"class":"solr.FingerprintFilterFactory"},
-                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
-                    {"class":"solr.FlattenGraphFilterFactory"},
-                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
+
                 ]
             },
             "queryAnalyzer":{
@@ -51,13 +48,11 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"},
-                    {"class":"solr.FingerprintFilterFactory"},
-                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
-                    {"class":"solr.FlattenGraphFilterFactory"},
-                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
+
                     
                 ]
             }
@@ -86,7 +81,7 @@
         },
         {
             "name": "title",
-            "type": "championsNames",
+            "type": "bigText",
             "indexed": true
         },
         {
@@ -108,7 +103,13 @@
             "name": "enemytips",
             "type": "bigText",
             "indexed": true
+        },
+        {
+            "name": "skins",
+            "type": "name",
+            "indexed": true
         }
+
     ]
     
 }

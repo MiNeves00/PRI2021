@@ -1,0 +1,3 @@
+Skins Victorious da ultima skin do champ para o primeiro, obrigando a ter skin
+
+http://localhost:8983/solr/#/champions/query?q=Victorious&q.op=OR&defType=dismax&indent=true&qf=skins__name01%5E1%20skins__name02%5E2%20skins__name03%5E3%20skins__name04%5E4%20skins__name05%5E5&qt=
