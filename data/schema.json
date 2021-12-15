@@ -10,7 +10,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
                 ]
             },
             "queryAnalyzer":{
@@ -20,7 +20,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
                 ]
             }
         },
