@@ -1,200 +1,200 @@
-﻿name;plaintext;gold__base;gold__purchasable;gold__total;gold__sell;tags__001;tags__002;tags__003;tags__004;tags__005;tags__006;tags__007;tags__008;tags__009;tags__010;tags__011;tags__012;tags__013;stats__PercentAttackSpeedMod;stats__FlatPhysicalDamageMod;stats__PercentLifeStealMod;stats__FlatSpellBlockMod;stats__FlatArmorMod;stats__FlatMPPoolMod;stats__FlatMagicDamageMod;stats__FlatCritChanceMod;stats__PercentMovementSpeedMod;stats__FlatHPPoolMod;stats__FlatHPRegenMod;stats__FlatMovementSpeedMod
-Boots;Slightly increases Movement Speed;300;VERDADEIRO;300;210;Boots;;;;;;;;;;;;;;;;;;;;;;;;25
-Faerie Charm;Slightly increases Mana Regen;250;VERDADEIRO;250;175;ManaRegen;;;;;;;;;;;;;;;;;;;;;;;;
-Rejuvenation Bead;Slightly increases Health Regen;150;VERDADEIRO;150;105;HealthRegen;;;;;;;;;;;;;;;;;;;;;;;;
-Giant's Belt;Greatly increases Health;500;VERDADEIRO;900;630;Health;;;;;;;;;;;;;;;;;;;;;;350;;
-Cloak of Agility;Increases critical strike chance;600;VERDADEIRO;600;420;CriticalStrike;;;;;;;;;;;;;;;;;;;;0.15;;;;
-Blasting Wand;Moderately increases Ability Power;850;VERDADEIRO;850;595;SpellDamage;;;;;;;;;;;;;;;;;;;40;;;;;
-Sapphire Crystal;Increases Mana;350;VERDADEIRO;350;245;Mana;;;;;;;;;;;;;;;;;;250;;;;;;
-Ruby Crystal;Increases Health;400;VERDADEIRO;400;280;Health;;;;;;;;;;;;;;;;;;;;;;150;;
-Cloth Armor;Slightly increases Armor;300;VERDADEIRO;300;210;Armor;;;;;;;;;;;;;;;;;15;;;;;;;
-Chain Vest;Greatly increases Armor;500;VERDADEIRO;800;560;Armor;;;;;;;;;;;;;;;;;40;;;;;;;
-Null-Magic Mantle;Slightly increases Magic Resist;450;VERDADEIRO;450;315;SpellBlock;;;;;;;;;;;;;;;;25;;;;;;;;
-Emberknife;;350;VERDADEIRO;350;140;LifeSteal;SpellVamp;Jungle;;;;;;;;;;;;;;;;;;;;;;
-Long Sword;Slightly increases Attack Damage;350;VERDADEIRO;350;245;Damage;Lane;;;;;;;;;;;;;10;;;;;;;;;;
-Pickaxe;Moderately increases Attack Damage;875;VERDADEIRO;875;613;Damage;;;;;;;;;;;;;;25;;;;;;;;;;
-B. F. Sword;Greatly increases Attack Damage;1300;VERDADEIRO;1300;910;Damage;;;;;;;;;;;;;;40;;;;;;;;;;
-Hailblade;Provides damage against Monsters and Mana Regen in the Jungle;350;VERDADEIRO;350;140;LifeSteal;SpellVamp;Jungle;;;;;;;;;;;;;;;;;;;;;;
-Dagger;Slightly increases Attack Speed;300;VERDADEIRO;300;210;AttackSpeed;;;;;;;;;;;;;0.12;;;;;;;;;;;
-Recurve Bow;Greatly increases Attack Speed;400;VERDADEIRO;1000;700;AttackSpeed;OnHit;;;;;;;;;;;;0.25;;;;;;;;;;;
-Amplifying Tome;Slightly increases Ability Power;435;VERDADEIRO;435;305;SpellDamage;;;;;;;;;;;;;;;;;;;20;;;;;
-Vampiric Scepter;Basic attacks restore Health;550;VERDADEIRO;900;630;Damage;LifeSteal;;;;;;;;;;;;;15;0.1;;;;;;;;;
-Doran's Shield;Good defensive starting item;450;VERDADEIRO;450;180;Health;HealthRegen;Lane;;;;;;;;;;;;;;;;;;;;80;1.2;
-Doran's Blade;Good starting item for attackers;450;VERDADEIRO;450;180;Health;Damage;SpellVamp;Lane;;;;;;;;;;;8;;;;;;;;80;;
-Doran's Ring;Good starting item for casters;400;VERDADEIRO;400;160;Health;Lane;ManaRegen;SpellDamage;;;;;;;;;;;;;;;;15;;;70;;
-Negatron Cloak;Moderately increases Magic Resist;450;VERDADEIRO;900;630;SpellBlock;;;;;;;;;;;;;;;;50;;;;;;;;
-Needlessly Large Rod;Greatly increases Ability Power;1250;VERDADEIRO;1250;875;SpellDamage;;;;;;;;;;;;;;;;;;;60;;;;;
-Dark Seal;Provides Ability Power and Mana.  Increases in power as you kill enemies.;350;VERDADEIRO;350;140;Health;SpellDamage;Lane;;;;;;;;;;;;;;;;;15;;;40;;
-Cull;Provides damage and Life Steal on hit - Killing minions grant bonus Gold;450;VERDADEIRO;450;180;Damage;LifeSteal;Lane;;;;;;;;;;;;7;;;;;;;;;;
-Health Potion;Consume to restore Health over time;50;VERDADEIRO;50;20;HealthRegen;Consumable;Lane;Jungle;;;;;;;;;;;;;;;;;;;;;
-Total Biscuit of Everlasting Will;;50;FALSO;50;5;;;;;;;;;;;;;;;;;;;;;;;;;
-Kircheis Shard;Attack speed and a chargable magic hit;400;VERDADEIRO;700;490;AttackSpeed;;;;;;;;;;;;;0.15;;;;;;;;;;;
-Refillable Potion;Restores Health over time. Refills at shop.;150;VERDADEIRO;150;60;HealthRegen;Consumable;Active;Lane;Jungle;;;;;;;;;;;;;;;;;;;;
-Corrupting Potion;Restores Health and Mana over time and boosts combat power - Refills at Shop;350;VERDADEIRO;500;200;Active;Consumable;HealthRegen;Lane;ManaRegen;;;;;;;;;;;;;;;;;;;;
-Guardian's Horn;Good starting item for tanks;950;VERDADEIRO;950;665;Health;HealthRegen;Lane;;;;;;;;;;;;;;;;;;;;150;4;
-Poro-Snax;;0;FALSO;0;0;;;;;;;;;;;;;;;;;;;;;;;;;
-Control Ward;Used to disable wards and invisible traps in an area.;75;VERDADEIRO;75;30;Consumable;Lane;Stealth;Vision;;;;;;;;;;;;;;;;;;;;;
-Shurelya's Battlesong;Activate to speed up nearby allies.;750;VERDADEIRO;2500;1750;Health;SpellDamage;ManaRegen;Active;CooldownReduction;NonbootsMovement;AbilityHaste;;;;;;;;;;;;;40;;;200;;
-Elixir of Iron;Temporarily increases defenses. Leaves a trail for allies to follow.;500;VERDADEIRO;500;200;Health;Consumable;NonbootsMovement;Tenacity;;;;;;;;;;;;;;;;;;;;;
-Elixir of Sorcery;Temporarily grants Ability Power and Bonus Damage to champions and turrets.;500;VERDADEIRO;500;200;Consumable;ManaRegen;SpellDamage;;;;;;;;;;;;;;;;;;;;;;
-Elixir of Wrath;Temporarily grants Attack Damage and heals you when dealing physical damage to champions.;500;VERDADEIRO;500;200;Consumable;Damage;LifeSteal;SpellVamp;;;;;;;;;;;;;;;;;;;;;
-Minion Dematerializer;;0;FALSO;0;0;;;;;;;;;;;;;;;;;;;;;;;;;
-Commencing Stopwatch;;0;FALSO;0;0;Active;;;;;;;;;;;;;;;;;;;;;;;;
-Stopwatch;Activate to become invincible but unable to take actions;650;VERDADEIRO;650;260;Active;;;;;;;;;;;;;;;;;;;;;;;;
-Broken Stopwatch;Upgrades to stopwatch;650;VERDADEIRO;650;260;;;;;;;;;;;;;;;;;;;;;;;;;
-Slightly Magical Footwear;;300;FALSO;300;210;Boots;;;;;;;;;;;;;;;;;;;;;;;;25
-Perfectly Timed Stopwatch;Activate to become invincible but unable to take actions;650;FALSO;650;260;Active;;;;;;;;;;;;;;;;;;;;;;;;
-Broken Stopwatch;;650;FALSO;650;260;;;;;;;;;;;;;;;;;;;;;;;;;
-Abyssal Mask;Nearby enemies take more magic damage;900;VERDADEIRO;2700;1890;Health;SpellBlock;;;;;;;;;;;;;;;60;;;;;;400;;
-Archangel's Staff;Increases Ability Power based on maximum Mana;915;VERDADEIRO;3000;2100;SpellDamage;Mana;Active;;;;;;;;;;;;;;;;500;65;;;;;
-Manamune;Increases Attack Damage based on maximum Mana;1050;VERDADEIRO;2900;2030;Damage;Mana;CooldownReduction;OnHit;AbilityHaste;;;;;;;;;;35;;;;500;;;;;;
-Berserker's Greaves;Enhances Movement Speed and Attack Speed;500;VERDADEIRO;1100;770;AttackSpeed;Boots;;;;;;;;;;;;0.35;;;;;;;;;;;45
-Boots of Swiftness;Enhances Movement Speed and reduces the effect of slows;600;VERDADEIRO;900;630;Boots;;;;;;;;;;;;;;;;;;;;;;;;60
-Chemtech Putrifier;;550;VERDADEIRO;2300;1610;SpellDamage;ManaRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;55;;;;;
-Sorcerer's Shoes;Enhances Movement Speed and magic damage;800;VERDADEIRO;1100;770;Boots;MagicPenetration;;;;;;;;;;;;;;;;;;;;;;;45
-Glacial Buckler;Increases Armor and Cooldown Reduction;250;VERDADEIRO;900;630;Armor;Mana;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;20;250;;;;;;
-Guardian Angel;Periodically revives champion upon death;50;VERDADEIRO;2800;1120;Armor;Damage;;;;;;;;;;;;;40;;;40;;;;;;;
-Infinity Edge;Massively enhances critical strikes;625;VERDADEIRO;3400;2380;CriticalStrike;Damage;;;;;;;;;;;;;70;;;;;;0.2;;;;
-Mortal Reminder;Overcomes enemies with high Health recovery and Armor;650;VERDADEIRO;2500;1750;Damage;CriticalStrike;AttackSpeed;NonbootsMovement;;;;;;;;;;0.25;25;;;;;;0.2;0.07;;;
-Last Whisper;Overcomes enemies with high Armor;750;VERDADEIRO;1450;1015;ArmorPenetration;Damage;;;;;;;;;;;;;20;;;;;;;;;;
-Lord Dominik's Regards;Overcomes enemies with high health and armor;950;VERDADEIRO;3000;2100;Damage;CriticalStrike;ArmorPenetration;;;;;;;;;;;;30;;;;;;0.2;;;;
-Seraph's Embrace;;3000;FALSO;3000;2100;SpellDamage;Mana;;;;;;;;;;;;;;;;;860;65;;;;;
-Mejai's Soulstealer;Grants Ability Power for kills and assists;1250;VERDADEIRO;1600;1120;Health;SpellDamage;NonbootsMovement;;;;;;;;;;;;;;;;;20;;;100;;
-Muramana;;3000;FALSO;3000;2100;Damage;Mana;CooldownReduction;OnHit;ArmorPenetration;;;;;;;;;;35;;;;860;;;;;;
-Phage;Attacks and kills give a small burst of speed;350;VERDADEIRO;1100;770;Health;HealthRegen;Damage;;;;;;;;;;;;15;;;;;;;;200;;
-Phantom Dancer;Move faster while attacking enemies and gain a shield when on low health.;850;VERDADEIRO;2600;1820;Damage;CriticalStrike;AttackSpeed;NonbootsMovement;;;;;;;;;;0.25;20;;;;;;0.2;0.07;;;
-Plated Steelcaps;Enhances Movement Speed and reduces incoming basic attack damage;500;VERDADEIRO;1100;770;Armor;Boots;;;;;;;;;;;;;;;;20;;;;;;;45
-Zeke's Convergence;Grants you and your ally bonuses when you cast your ultimate.;700;VERDADEIRO;2400;1680;Health;Armor;Mana;Active;CooldownReduction;OnHit;AbilityHaste;;;;;;;;;;;25;250;;;;250;;
-Hearthbound Axe;;450;VERDADEIRO;1100;770;Damage;AttackSpeed;NonbootsMovement;;;;;;;;;;;0.15;15;;;;;;;;;;
-Sterak's Gage;Shields against large bursts of damage;725;VERDADEIRO;3100;2170;Health;Damage;;;;;;;;;;;;;50;;;;;;;;400;;
-Sheen;Grants a bonus to next attack after spell cast;700;VERDADEIRO;700;490;OnHit;;;;;;;;;;;;;;;;;;;;;;;;
-Spirit Visage;Increases Health and healing effects;850;VERDADEIRO;2900;2030;Health;SpellBlock;HealthRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;40;;;;;;450;;
-Winged Moonplate;;400;VERDADEIRO;800;560;Health;NonbootsMovement;;;;;;;;;;;;;;;;;;;;;150;;
-Kindlegem;Increases Health and Cooldown Reduction;400;VERDADEIRO;800;560;Health;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;;;200;;
-Sunfire Aegis;High armor. Constantly deals damage to nearby enemies. Immobilize enemies to release a wave of damaging flame;600;VERDADEIRO;3200;2240;Health;SpellBlock;Armor;Aura;CooldownReduction;AbilityHaste;;;;;;;;;;;30;30;;;;;350;;
-Tear of the Goddess;Increases maximum Mana as Mana is spent;400;VERDADEIRO;400;280;Mana;ManaRegen;;;;;;;;;;;;;;;;;240;;;;;;
-Black Cleaver;Dealing physical damage to enemy champions reduces their Armor;850;VERDADEIRO;3100;2170;Health;Damage;CooldownReduction;OnHit;NonbootsMovement;ArmorPenetration;AbilityHaste;;;;;;;;40;;;;;;;;450;;
-Bloodthirster;Grants Attack Damage, Life Steal and Life Steal now overheals;600;VERDADEIRO;3400;2380;Damage;CriticalStrike;LifeSteal;;;;;;;;;;;;55;0.2;;;;;0.2;;;;
-Ravenous Hydra;Melee attacks hit nearby enemies, dealing damage and restoring Health;100;VERDADEIRO;3300;2310;Damage;LifeSteal;CooldownReduction;SpellVamp;AbilityHaste;;;;;;;;;;65;;;;;;;;;;
-Thornmail;;1000;VERDADEIRO;2700;1890;Health;Armor;;;;;;;;;;;;;;;;60;;;;;350;;
-Bramble Vest;;200;VERDADEIRO;800;560;Armor;;;;;;;;;;;;;;;;;30;;;;;;;
-Tiamat;Melee attacks hit nearby enemies;325;VERDADEIRO;1200;840;Damage;;;;;;;;;;;;;;25;;;;;;;;;;
-Trinity Force;Tons of Damage;733;VERDADEIRO;3333;2333;Health;Damage;AttackSpeed;CooldownReduction;OnHit;NonbootsMovement;AbilityHaste;;;;;;;0.3;35;;;;;;;;200;;
-Warden's Mail;;400;VERDADEIRO;1000;700;Armor;;;;;;;;;;;;;;;;;40;;;;;;;
-Warmog's Armor;Grants massive Health and Health Regen;650;VERDADEIRO;3000;2100;Health;HealthRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;;800;;
-Runaan's Hurricane;Ranged attacks fire two bolts at nearby enemies;950;VERDADEIRO;2600;1820;CriticalStrike;AttackSpeed;OnHit;NonbootsMovement;;;;;;;;;;0.45;;;;;;;0.2;0.07;;;
-Zeal;Slight bonuses to Critical Strike Chance, Movement Speed and Attack Speed;150;VERDADEIRO;1050;735;AttackSpeed;CriticalStrike;NonbootsMovement;;;;;;;;;;;0.18;;;;;;;0.15;;;;
-Rabadon's Deathcap;Massively increases Ability Power;1100;VERDADEIRO;3600;2520;SpellDamage;;;;;;;;;;;;;;;;;;;120;;;;;
-Wit's End;Resist magic damage and claw your way back to life.;750;VERDADEIRO;3100;2170;SpellBlock;Damage;AttackSpeed;OnHit;NonbootsMovement;;;;;;;;;0.4;40;;50;;;;;;;;
-Rapid Firecannon;Movement builds charges that release a sieging fire attack on release;750;VERDADEIRO;2500;1750;CriticalStrike;AttackSpeed;NonbootsMovement;;;;;;;;;;;0.35;;;;;;;0.2;0.07;;;
-Stormrazor;Tremendously empower other Energized effects.;100;VERDADEIRO;2700;1890;Damage;CriticalStrike;AttackSpeed;Slow;;;;;;;;;;0.15;40;;;;;;0.2;;;;
-Lich Bane;Grants a bonus to next attack after spell cast;600;VERDADEIRO;3000;2100;SpellDamage;OnHit;NonbootsMovement;;;;;;;;;;;;;;;;;75;;0.08;;;
-Banshee's Veil;Periodically blocks enemy abilities;700;VERDADEIRO;2600;1820;SpellBlock;SpellDamage;CooldownReduction;AbilityHaste;;;;;;;;;;;;;45;;;80;;;;;
-Aegis of the Legion;Grants Armor and Magic Resistance;750;VERDADEIRO;1500;1050;SpellBlock;Armor;CooldownReduction;AbilityHaste;;;;;;;;;;;;;30;30;;;;;;;
-Redemption;Activate to heal allies and damage enemies in an area;700;VERDADEIRO;2300;1610;Health;ManaRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;;200;;
-Fiendish Codex;Increases Ability Power and Cooldown Reduction;465;VERDADEIRO;900;630;SpellDamage;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;35;;;;;
-Knight's Vow;Partner with an ally to protect each other;700;VERDADEIRO;2300;1610;Health;HealthRegen;Aura;Active;CooldownReduction;NonbootsMovement;AbilityHaste;;;;;;;;;;;;;;;;400;;
-Frozen Heart;Massively increases Armor and slows enemy basic attacks;600;VERDADEIRO;2500;1750;Armor;Mana;Aura;CooldownReduction;AbilityHaste;;;;;;;;;;;;;80;400;;;;;;
-Mercury's Treads;Increases Movement Speed and reduces duration of disabling effects;350;VERDADEIRO;1100;770;Boots;SpellBlock;Tenacity;;;;;;;;;;;;;;25;;;;;;;;45
-Guardian's Orb;Good starting item for mages;950;VERDADEIRO;950;665;Health;SpellDamage;ManaRegen;Lane;;;;;;;;;;;;;;;;40;;;150;;
-Aether Wisp;Increases Ability Power and Movement Speed;415;VERDADEIRO;850;595;NonbootsMovement;SpellDamage;;;;;;;;;;;;;;;;;;30;;;;;
-Forbidden Idol;Increases Heal and Shield Power, Mana Regeneration, and Cooldown Reduction;550;VERDADEIRO;800;560;ManaRegen;;;;;;;;;;;;;;;;;;;;;;;;
-Nashor's Tooth;Increases Attack Speed, Ability Power, and Cooldown Reduction;715;VERDADEIRO;3000;2100;AttackSpeed;SpellDamage;OnHit;;;;;;;;;;;0.5;;;;;;100;;;;;
-Rylai's Crystal Scepter;Abilities slow enemies;815;VERDADEIRO;3000;2100;Health;SpellDamage;Slow;;;;;;;;;;;;;;;;;90;;;350;;
-Mobility Boots;Greatly enhances Movement Speed when out of combat;700;VERDADEIRO;1000;700;Boots;;;;;;;;;;;;;;;;;;;;;;;;115
-Executioner's Calling;Overcomes enemies with high health gain;450;VERDADEIRO;800;560;Damage;;;;;;;;;;;;;;15;;;;;;;;;;
-Guinsoo's Rageblade;;900;VERDADEIRO;2600;1820;CriticalStrike;AttackSpeed;OnHit;;;;;;;;;;;0.45;;;;;;;0.2;;;;
-Caulfield's Warhammer;Attack Damage and Cooldown Reduction;400;VERDADEIRO;1100;770;Damage;CooldownReduction;AbilityHaste;;;;;;;;;;;;25;;;;;;;;;;
-Serrated Dirk;Increases Attack Damage and Lethality;400;VERDADEIRO;1100;770;Damage;ArmorPenetration;;;;;;;;;;;;;30;;;;;;;;;;
-Void Staff;Increases magic damage;600;VERDADEIRO;2700;1890;MagicPenetration;SpellDamage;;;;;;;;;;;;;;;;;;70;;;;;
-Mercurial Scimitar;Activate to remove all crowd control debuffs and grant massive Movement Speed;225;VERDADEIRO;3000;2100;SpellBlock;Damage;CriticalStrike;Active;NonbootsMovement;Tenacity;;;;;;;;;40;;30;;;;0.2;;;;
-Quicksilver Sash;Activate to remove all crowd control debuffs;850;VERDADEIRO;1300;910;Active;SpellBlock;;;;;;;;;;;;;;;30;;;;;;;;
-Youmuu's Ghostblade;Activate to greatly increase Movement Speed;700;VERDADEIRO;2900;2030;Damage;Active;NonbootsMovement;ArmorPenetration;;;;;;;;;;;55;;;;;;;;;;
-Randuin's Omen;Greatly increases defenses, activate to slow nearby enemies;600;VERDADEIRO;2700;1890;Health;Armor;Active;CooldownReduction;Slow;AbilityHaste;;;;;;;;;;;;80;;;;;250;;
-Hextech Alternator;Increases Ability Power. Deal bonus magic damage on attack periodically.;180;VERDADEIRO;1050;735;SpellDamage;;;;;;;;;;;;;;;;;;;40;;;;;
-Hextech Rocketbelt;Activate to dash forward and unleash a fiery explosion;900;VERDADEIRO;3200;2240;Health;SpellDamage;Active;CooldownReduction;NonbootsMovement;MagicPenetration;AbilityHaste;;;;;;;;;;;;;90;;;250;;
-Blade of The Ruined King;Deals damage based on target's Health, can steal Movement Speed;425;VERDADEIRO;3200;2240;Damage;AttackSpeed;LifeSteal;Slow;OnHit;NonbootsMovement;;;;;;;;0.25;40;0.1;;;;;;;;;
-Hexdrinker;Increases Attack Damage and Magic Resist;500;VERDADEIRO;1300;910;Damage;SpellBlock;;;;;;;;;;;;;20;;35;;;;;;;;
-Maw of Malmortius;Grants bonus Attack Damage when Health is low;400;VERDADEIRO;2800;1960;SpellBlock;Damage;CooldownReduction;AbilityHaste;;;;;;;;;;;50;;50;;;;;;;;
-Zhonya's Hourglass;Activate to become invincible but unable to take actions;50;VERDADEIRO;2600;1820;Armor;SpellDamage;Active;CooldownReduction;AbilityHaste;;;;;;;;;;;;;45;;65;;;;;
-Ionian Boots of Lucidity;Increases Movement Speed and Cooldown Reduction;650;VERDADEIRO;950;665;Boots;CooldownReduction;;;;;;;;;;;;;;;;;;;;;;;45
-Morellonomicon;Increases magic damage;450;VERDADEIRO;2500;1750;Health;SpellDamage;;;;;;;;;;;;;;;;;;80;;;250;;
-Guardian's Blade;Good starting item for attackers;950;VERDADEIRO;950;665;Health;Damage;Lane;AbilityHaste;;;;;;;;;;;30;;;;;;;;150;;
-Umbral Glaive;Provides trap and ward detection periodically;600;VERDADEIRO;2400;1680;Damage;Vision;CooldownReduction;ArmorPenetration;AbilityHaste;;;;;;;;;;50;;;;;;;;;;
-Hullbreaker;;825;VERDADEIRO;2800;1960;Health;SpellBlock;Armor;Damage;;;;;;;;;;;50;;;;;;;;400;;
-Guardian's Hammer;Good starting item for attackers;950;VERDADEIRO;950;665;Health;Damage;LifeSteal;Lane;;;;;;;;;;;25;0.1;;;;;;;150;;
-Locket of the Iron Solari;Activate to shield nearby allies from damage;200;VERDADEIRO;2500;1750;Health;SpellBlock;Armor;Aura;Active;CooldownReduction;AbilityHaste;;;;;;;;;;30;30;;;;;200;;
-Seeker's Armguard;Increases Armor and Ability Power;265;VERDADEIRO;1000;700;Armor;SpellDamage;;;;;;;;;;;;;;;;15;;20;;;;;
-Gargoyle Stoneplate;Greatly increases defense near multiple enemies.;1050;VERDADEIRO;3300;2310;SpellBlock;Armor;Active;CooldownReduction;AbilityHaste;;;;;;;;;;;;60;60;;;;;;;
-Spectre's Cowl;Improves defense and grants regeneration upon being damaged;400;VERDADEIRO;1250;875;Health;HealthRegen;SpellBlock;;;;;;;;;;;;;;25;;;;;;250;;
-Mikael's Blessing;Activate to remove all disabling effects from an allied champion;600;VERDADEIRO;2300;1610;SpellBlock;ManaRegen;Active;CooldownReduction;Tenacity;AbilityHaste;;;;;;;;;;;50;;;;;;;;
-Scarecrow Effigy;Periodically place a Stealth Ward;0;VERDADEIRO;0;0;Active;Jungle;Lane;Trinket;Vision;;;;;;;;;;;;;;;;;;;;
-Stealth Ward;Periodically place a Stealth Ward;0;VERDADEIRO;0;0;Active;Jungle;Lane;Trinket;Vision;;;;;;;;;;;;;;;;;;;;
-Farsight Alteration;Grants increased range and reveals the targetted area;0;VERDADEIRO;0;0;Active;Trinket;Vision;;;;;;;;;;;;;;;;;;;;;;
-Oracle Lens;Disables nearby invisible wards and traps for a duration;0;VERDADEIRO;0;0;Active;Trinket;Vision;;;;;;;;;;;;;;;;;;;;;;
-Your Cut;;0;FALSO;0;0;Consumable;GoldPer;;;;;;;;;;;;;;;;;;;;;;;
-Ardent Censer;Shield and heal effects on other units grant both of you Attack Speed and their attacks deal additional on-hit magic damage.;630;VERDADEIRO;2300;1610;AttackSpeed;SpellDamage;ManaRegen;OnHit;;;;;;;;;;;;;;;;60;;;;;
-Essence Reaver;;400;VERDADEIRO;2800;1960;Damage;CriticalStrike;ManaRegen;CooldownReduction;OnHit;AbilityHaste;;;;;;;;;45;;;;;;0.2;;;;
-Eye of the Herald;Eye of the Herald - a Gift of the Void.;0;FALSO;0;0;Trinket;Active;;;;;;;;;;;;;;;;;;;;;;;
-Kalista's Black Spear;Kalista's spear that binds an Oathsworn Ally.;0;VERDADEIRO;0;0;Consumable;;;;;;;;;;;;;;;;;;;;;;;;
-Kalista's Black Spear;Kalista's spear that binds an Oathsworn Ally.;0;VERDADEIRO;0;0;Consumable;;;;;;;;;;;;;;;;;;;;;;;;
-Dead Man's Plate;Build momentum as you move around then smash into enemies.;900;VERDADEIRO;2900;2030;Health;Armor;Slow;NonbootsMovement;;;;;;;;;;;;;;45;;;;0.05;300;;
-Titanic Hydra;Deals area of effect damage based on owner's health;800;VERDADEIRO;3300;2310;Health;HealthRegen;Damage;OnHit;;;;;;;;;;;30;;;;;;;;500;;
-Crystalline Bracer;Grants Health and Health Regen;100;VERDADEIRO;650;455;Health;HealthRegen;;;;;;;;;;;;;;;;;;;;;200;;
-Lost Chapter;Restores Mana upon levelling up.;80;VERDADEIRO;1300;910;SpellDamage;Mana;ManaRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;300;40;;;;;
-Edge of Night;Periodically blocks enemy abilities;1050;VERDADEIRO;2900;2030;Health;Damage;ArmorPenetration;;;;;;;;;;;;50;;;;;;;;325;;
-Spellthief's Edge;Gain gold and upgrade by damaging enemy champions;400;VERDADEIRO;400;160;Health;SpellDamage;ManaRegen;Vision;GoldPer;Lane;;;;;;;;;;;;;;8;;;10;;
-Frostfang;;400;FALSO;400;160;GoldPer;Lane;ManaRegen;SpellDamage;;;;;;;;;;;;;;;;15;;;70;;
-Shard of True Ice;;400;FALSO;400;160;GoldPer;Lane;ManaRegen;SpellDamage;;;;;;;;;;;;;;;;40;;;75;;
-Steel Shoulderguards;Gain gold and upgrade by executing minions alongside allies;400;VERDADEIRO;400;160;Health;HealthRegen;Damage;Vision;GoldPer;Lane;;;;;;;;;3;;;;;;;;30;;
-Runesteel Spaulders;;400;FALSO;400;160;Health;HealthRegen;GoldPer;Lane;;;;;;;;;;;6;;;;;;;;100;;
-Pauldrons of Whiterock;;400;FALSO;400;160;Health;HealthRegen;GoldPer;Lane;;;;;;;;;;;15;;;;;;;;250;;
-Relic Shield;Gain gold and upgrade by executing minions alongside allies;400;VERDADEIRO;400;160;Health;HealthRegen;SpellDamage;Vision;GoldPer;Lane;;;;;;;;;;;;;;5;;;30;;
-Targon's Buckler;;400;FALSO;400;160;Health;HealthRegen;GoldPer;Lane;;;;;;;;;;;;;;;;10;;;100;;
-Bulwark of the Mountain;;400;FALSO;400;160;Health;HealthRegen;GoldPer;Lane;;;;;;;;;;;;;;;;20;;;250;;
-Spectral Sickle;Gain gold and upgrade by damaging enemy champions;400;VERDADEIRO;400;160;Health;Damage;ManaRegen;Vision;GoldPer;Lane;;;;;;;;;5;;;;;;;;10;;
-Harrowing Crescent;;400;FALSO;400;160;Health;ManaRegen;GoldPer;Lane;;;;;;;;;;;10;;;;;;;;60;;
-Black Mist Scythe;;400;FALSO;400;160;Health;ManaRegen;GoldPer;Lane;;;;;;;;;;;20;;;;;;;;75;;
-Oblivion Orb;Increases magic damage;365;VERDADEIRO;800;560;SpellDamage;;;;;;;;;;;;;;;;;;;30;;;;;
-Imperial Mandate;Defer damage until later.;750;VERDADEIRO;2500;1750;Health;SpellDamage;ManaRegen;CooldownReduction;NonbootsMovement;;;;;;;;;;;;;;;40;;;200;;
-Force of Nature;Movement Speed, Magic Resist, and max Health Regeneration;800;VERDADEIRO;2900;2030;Health;SpellBlock;NonbootsMovement;;;;;;;;;;;;;;60;;;;;0.05;350;;
-The Golden Spatula;It does EVERYTHING!;687;VERDADEIRO;7487;5241;Health;SpellBlock;HealthRegen;Armor;Damage;CriticalStrike;AttackSpeed;LifeSteal;SpellDamage;Mana;ManaRegen;CooldownReduction;NonbootsMovement;0.5;70;0.1;30;30;250;120;0.3;0.1;250;;
-Horizon Focus;Immobilizing a champion causes lightning to strike them;700;VERDADEIRO;3000;2100;SpellDamage;;;;;;;;;;;;;;;;;;;115;;;;;
-Cosmic Drive;Massive amounts of Cooldown Reduction;865;VERDADEIRO;3000;2100;Health;SpellDamage;CooldownReduction;NonbootsMovement;AbilityHaste;;;;;;;;;;;;;;;80;;;200;;
-Blighting Jewel;;815;VERDADEIRO;1250;875;MagicPenetration;SpellDamage;;;;;;;;;;;;;;;;;;25;;;;;
-Verdant Barrier;;115;VERDADEIRO;1000;700;SpellBlock;SpellDamage;;;;;;;;;;;;;;;25;;;20;;;;;
-Riftmaker;;1050;VERDADEIRO;3200;2240;Health;SpellDamage;CooldownReduction;SpellVamp;MagicPenetration;AbilityHaste;;;;;;;;;;;;;;80;;;300;;
-Leeching Leer;;465;VERDADEIRO;1300;910;Health;SpellDamage;SpellVamp;;;;;;;;;;;;;;;;;20;;;250;;
-Night Harvester;;900;VERDADEIRO;3200;2240;Health;SpellDamage;CooldownReduction;NonbootsMovement;AbilityHaste;;;;;;;;;;;;;;;90;;;300;;
-Demonic Embrace;;815;VERDADEIRO;3000;2100;Health;SpellDamage;;;;;;;;;;;;;;;;;;70;;;350;;
-Watchful Wardstone;;1100;VERDADEIRO;1100;770;Health;Vision;Active;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;150;;
-Bandleglass Mirror;;265;VERDADEIRO;950;665;SpellDamage;ManaRegen;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;20;;;;;
-Vigilant Wardstone;;0;FALSO;1100;770;Health;Vision;Active;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;150;;
-Ironspike Whip;;225;VERDADEIRO;1100;770;Damage;Active;;;;;;;;;;;;;30;;;;;;;;;;
-Silvermere Dawn;;425;VERDADEIRO;3000;2100;Health;SpellBlock;Damage;Active;Tenacity;;;;;;;;;;40;;35;;;;;;300;;
-Death's Dance;;325;VERDADEIRO;3100;2170;Armor;Damage;CooldownReduction;AbilityHaste;;;;;;;;;;;55;;;45;;;;;;;
-Chempunk Chainsword;;300;VERDADEIRO;2600;1820;Health;Damage;CooldownReduction;AbilityHaste;;;;;;;;;;;45;;;;;;;;250;;
-Staff of Flowing Water;Your heals and shields reduce crowd control and grant movement speed;630;VERDADEIRO;2300;1610;SpellDamage;ManaRegen;AbilityHaste;;;;;;;;;;;;;;;;;50;;;;;
-Moonstone Renewer;Your heals and shields cool down faster and have greater effect on low health allies;750;VERDADEIRO;2500;1750;Health;SpellDamage;CooldownReduction;;;;;;;;;;;;;;;;;40;;;200;;
-Goredrinker;;300;VERDADEIRO;3300;2310;Health;Damage;LifeSteal;Active;CooldownReduction;SpellVamp;AbilityHaste;;;;;;;;45;;;;;;;;450;;
-Stridebreaker;;300;VERDADEIRO;3300;2310;Health;Damage;AttackSpeed;Active;CooldownReduction;Slow;NonbootsMovement;AbilityHaste;;;;;;0.2;50;;;;;;;;300;;
-Divine Sunderer;;700;VERDADEIRO;3300;2310;Health;Damage;LifeSteal;CooldownReduction;OnHit;MagicPenetration;ArmorPenetration;AbilityHaste;;;;;;;35;;;;;;;;400;;
-Liandry's Anguish;Charge up in combat to deal high damage over time, especially against durable enemies;1000;VERDADEIRO;3200;2240;SpellDamage;Mana;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;600;80;;;;;
-Luden's Tempest;High burst damage, good against fragile foes;1050;VERDADEIRO;3200;2240;SpellDamage;Mana;CooldownReduction;NonbootsMovement;MagicPenetration;AbilityHaste;;;;;;;;;;;;;600;80;;;;;
-Everfrost;;250;VERDADEIRO;3200;2240;Health;SpellDamage;Mana;Active;CooldownReduction;Slow;AbilityHaste;;;;;;;;;;;;600;80;;;250;;
-Bami's Cinder;;300;VERDADEIRO;1100;770;Health;;;;;;;;;;;;;;;;;;;;;;300;;
-Frostfire Gauntlet;High Magic Resist.Passively slow nearby enemies. When spells are cast near you, release a wave of energy that damages and slows.;950;VERDADEIRO;2800;1960;Health;SpellBlock;Armor;Aura;CooldownReduction;Slow;AbilityHaste;;;;;;;;;;25;25;;;;;350;;
-Turbo Chemtank;Immobilize enemies to gain a shield. Activate to run faster at opponents.;950;VERDADEIRO;2800;1960;Health;SpellBlock;Armor;Aura;Active;CooldownReduction;Slow;NonbootsMovement;Tenacity;AbilityHaste;;;;;;;25;25;;;;;350;;
-Noonquiver;;300;VERDADEIRO;1300;910;Damage;AttackSpeed;;;;;;;;;;;;0.15;30;;;;;;;;;;
-Galeforce;;625;VERDADEIRO;3400;2380;Damage;CriticalStrike;AttackSpeed;Active;NonbootsMovement;;;;;;;;;0.2;60;;;;;;0.2;;;;
-Kraken Slayer;;625;VERDADEIRO;3400;2380;Damage;CriticalStrike;AttackSpeed;ArmorPenetration;;;;;;;;;;0.25;65;;;;;;0.2;;;;
-Immortal Shieldbow;;600;VERDADEIRO;3400;2380;Health;Damage;CriticalStrike;AttackSpeed;LifeSteal;;;;;;;;;0.2;55;0.1;;;;;0.2;;;;
-Navori Quickblades;;825;VERDADEIRO;3400;2380;Damage;CriticalStrike;CooldownReduction;AbilityHaste;;;;;;;;;;;60;;;;;;0.2;;;;
-The Collector;;425;VERDADEIRO;3000;2100;Damage;CriticalStrike;ArmorPenetration;;;;;;;;;;;;55;;;;;;0.2;;;;
-Rageknife;;200;VERDADEIRO;800;560;AttackSpeed;OnHit;;;;;;;;;;;;0.25;;;;;;;;;;;
-Duskblade of Draktharr;;1000;VERDADEIRO;3200;2240;Damage;Stealth;CooldownReduction;Slow;ArmorPenetration;AbilityHaste;;;;;;;;;60;;;;;;;;;;
-Eclipse;;850;VERDADEIRO;3200;2240;Damage;LifeSteal;SpellVamp;NonbootsMovement;ArmorPenetration;;;;;;;;;;55;;;;;;;;;;
-Prowler's Claw;;1000;VERDADEIRO;3200;2240;Damage;Active;CooldownReduction;NonbootsMovement;ArmorPenetration;AbilityHaste;;;;;;;;;60;;;;;;;;;;
-Serylda's Grudge;;650;VERDADEIRO;3200;2240;Damage;CooldownReduction;ArmorPenetration;AbilityHaste;;;;;;;;;;;45;;;;;;;;;;
-Serpent's Fang;;625;VERDADEIRO;2600;1820;Damage;ArmorPenetration;;;;;;;;;;;;;55;;;;;;;;;;
-Anathema's Chains;;800;VERDADEIRO;2500;1750;Health;Active;CooldownReduction;AbilityHaste;;;;;;;;;;;;;;;;;;;650;;
+﻿name,plaintext,gold__base,gold__purchasable,gold__total,gold__sell,tags__001,tags__002,tags__003,tags__004,tags__005,tags__006,tags__007,tags__008,tags__009,tags__010,tags__011,tags__012,tags__013,stats__PercentAttackSpeedMod,stats__FlatPhysicalDamageMod,stats__PercentLifeStealMod,stats__FlatSpellBlockMod,stats__FlatArmorMod,stats__FlatMPPoolMod,stats__FlatMagicDamageMod,stats__FlatCritChanceMod,stats__PercentMovementSpeedMod,stats__FlatHPPoolMod,stats__FlatHPRegenMod,stats__FlatMovementSpeedMod
+Boots,Slightly increases Movement Speed,300,VERDADEIRO,300,210,Boots,,,,,,,,,,,,,,,,,,,,,,,,25
+Faerie Charm,Slightly increases Mana Regen,250,VERDADEIRO,250,175,ManaRegen,,,,,,,,,,,,,,,,,,,,,,,,
+Rejuvenation Bead,Slightly increases Health Regen,150,VERDADEIRO,150,105,HealthRegen,,,,,,,,,,,,,,,,,,,,,,,,
+Giant's Belt,Greatly increases Health,500,VERDADEIRO,900,630,Health,,,,,,,,,,,,,,,,,,,,,,350,,
+Cloak of Agility,Increases critical strike chance,600,VERDADEIRO,600,420,CriticalStrike,,,,,,,,,,,,,,,,,,,,0.15,,,,
+Blasting Wand,Moderately increases Ability Power,850,VERDADEIRO,850,595,SpellDamage,,,,,,,,,,,,,,,,,,,40,,,,,
+Sapphire Crystal,Increases Mana,350,VERDADEIRO,350,245,Mana,,,,,,,,,,,,,,,,,,250,,,,,,
+Ruby Crystal,Increases Health,400,VERDADEIRO,400,280,Health,,,,,,,,,,,,,,,,,,,,,,150,,
+Cloth Armor,Slightly increases Armor,300,VERDADEIRO,300,210,Armor,,,,,,,,,,,,,,,,,15,,,,,,,
+Chain Vest,Greatly increases Armor,500,VERDADEIRO,800,560,Armor,,,,,,,,,,,,,,,,,40,,,,,,,
+Null-Magic Mantle,Slightly increases Magic Resist,450,VERDADEIRO,450,315,SpellBlock,,,,,,,,,,,,,,,,25,,,,,,,,
+Emberknife,,350,VERDADEIRO,350,140,LifeSteal,SpellVamp,Jungle,,,,,,,,,,,,,,,,,,,,,,
+Long Sword,Slightly increases Attack Damage,350,VERDADEIRO,350,245,Damage,Lane,,,,,,,,,,,,,10,,,,,,,,,,
+Pickaxe,Moderately increases Attack Damage,875,VERDADEIRO,875,613,Damage,,,,,,,,,,,,,,25,,,,,,,,,,
+B. F. Sword,Greatly increases Attack Damage,1300,VERDADEIRO,1300,910,Damage,,,,,,,,,,,,,,40,,,,,,,,,,
+Hailblade,Provides damage against Monsters and Mana Regen in the Jungle,350,VERDADEIRO,350,140,LifeSteal,SpellVamp,Jungle,,,,,,,,,,,,,,,,,,,,,,
+Dagger,Slightly increases Attack Speed,300,VERDADEIRO,300,210,AttackSpeed,,,,,,,,,,,,,0.12,,,,,,,,,,,
+Recurve Bow,Greatly increases Attack Speed,400,VERDADEIRO,1000,700,AttackSpeed,OnHit,,,,,,,,,,,,0.25,,,,,,,,,,,
+Amplifying Tome,Slightly increases Ability Power,435,VERDADEIRO,435,305,SpellDamage,,,,,,,,,,,,,,,,,,,20,,,,,
+Vampiric Scepter,Basic attacks restore Health,550,VERDADEIRO,900,630,Damage,LifeSteal,,,,,,,,,,,,,15,0.1,,,,,,,,,
+Doran's Shield,Good defensive starting item,450,VERDADEIRO,450,180,Health,HealthRegen,Lane,,,,,,,,,,,,,,,,,,,,80,1.2,
+Doran's Blade,Good starting item for attackers,450,VERDADEIRO,450,180,Health,Damage,SpellVamp,Lane,,,,,,,,,,,8,,,,,,,,80,,
+Doran's Ring,Good starting item for casters,400,VERDADEIRO,400,160,Health,Lane,ManaRegen,SpellDamage,,,,,,,,,,,,,,,,15,,,70,,
+Negatron Cloak,Moderately increases Magic Resist,450,VERDADEIRO,900,630,SpellBlock,,,,,,,,,,,,,,,,50,,,,,,,,
+Needlessly Large Rod,Greatly increases Ability Power,1250,VERDADEIRO,1250,875,SpellDamage,,,,,,,,,,,,,,,,,,,60,,,,,
+Dark Seal,Provides Ability Power and Mana.  Increases in power as you kill enemies.,350,VERDADEIRO,350,140,Health,SpellDamage,Lane,,,,,,,,,,,,,,,,,15,,,40,,
+Cull,Provides damage and Life Steal on hit - Killing minions grant bonus Gold,450,VERDADEIRO,450,180,Damage,LifeSteal,Lane,,,,,,,,,,,,7,,,,,,,,,,
+Health Potion,Consume to restore Health over time,50,VERDADEIRO,50,20,HealthRegen,Consumable,Lane,Jungle,,,,,,,,,,,,,,,,,,,,,
+Total Biscuit of Everlasting Will,,50,FALSO,50,5,,,,,,,,,,,,,,,,,,,,,,,,,
+Kircheis Shard,Attack speed and a chargable magic hit,400,VERDADEIRO,700,490,AttackSpeed,,,,,,,,,,,,,0.15,,,,,,,,,,,
+Refillable Potion,Restores Health over time. Refills at shop.,150,VERDADEIRO,150,60,HealthRegen,Consumable,Active,Lane,Jungle,,,,,,,,,,,,,,,,,,,,
+Corrupting Potion,Restores Health and Mana over time and boosts combat power - Refills at Shop,350,VERDADEIRO,500,200,Active,Consumable,HealthRegen,Lane,ManaRegen,,,,,,,,,,,,,,,,,,,,
+Guardian's Horn,Good starting item for tanks,950,VERDADEIRO,950,665,Health,HealthRegen,Lane,,,,,,,,,,,,,,,,,,,,150,4,
+Poro-Snax,,0,FALSO,0,0,,,,,,,,,,,,,,,,,,,,,,,,,
+Control Ward,Used to disable wards and invisible traps in an area.,75,VERDADEIRO,75,30,Consumable,Lane,Stealth,Vision,,,,,,,,,,,,,,,,,,,,,
+Shurelya's Battlesong,Activate to speed up nearby allies.,750,VERDADEIRO,2500,1750,Health,SpellDamage,ManaRegen,Active,CooldownReduction,NonbootsMovement,AbilityHaste,,,,,,,,,,,,,40,,,200,,
+Elixir of Iron,Temporarily increases defenses. Leaves a trail for allies to follow.,500,VERDADEIRO,500,200,Health,Consumable,NonbootsMovement,Tenacity,,,,,,,,,,,,,,,,,,,,,
+Elixir of Sorcery,Temporarily grants Ability Power and Bonus Damage to champions and turrets.,500,VERDADEIRO,500,200,Consumable,ManaRegen,SpellDamage,,,,,,,,,,,,,,,,,,,,,,
+Elixir of Wrath,Temporarily grants Attack Damage and heals you when dealing physical damage to champions.,500,VERDADEIRO,500,200,Consumable,Damage,LifeSteal,SpellVamp,,,,,,,,,,,,,,,,,,,,,
+Minion Dematerializer,,0,FALSO,0,0,,,,,,,,,,,,,,,,,,,,,,,,,
+Commencing Stopwatch,,0,FALSO,0,0,Active,,,,,,,,,,,,,,,,,,,,,,,,
+Stopwatch,Activate to become invincible but unable to take actions,650,VERDADEIRO,650,260,Active,,,,,,,,,,,,,,,,,,,,,,,,
+Broken Stopwatch,Upgrades to stopwatch,650,VERDADEIRO,650,260,,,,,,,,,,,,,,,,,,,,,,,,,
+Slightly Magical Footwear,,300,FALSO,300,210,Boots,,,,,,,,,,,,,,,,,,,,,,,,25
+Perfectly Timed Stopwatch,Activate to become invincible but unable to take actions,650,FALSO,650,260,Active,,,,,,,,,,,,,,,,,,,,,,,,
+Broken Stopwatch,,650,FALSO,650,260,,,,,,,,,,,,,,,,,,,,,,,,,
+Abyssal Mask,Nearby enemies take more magic damage,900,VERDADEIRO,2700,1890,Health,SpellBlock,,,,,,,,,,,,,,,60,,,,,,400,,
+Archangel's Staff,Increases Ability Power based on maximum Mana,915,VERDADEIRO,3000,2100,SpellDamage,Mana,Active,,,,,,,,,,,,,,,,500,65,,,,,
+Manamune,Increases Attack Damage based on maximum Mana,1050,VERDADEIRO,2900,2030,Damage,Mana,CooldownReduction,OnHit,AbilityHaste,,,,,,,,,,35,,,,500,,,,,,
+Berserker's Greaves,Enhances Movement Speed and Attack Speed,500,VERDADEIRO,1100,770,AttackSpeed,Boots,,,,,,,,,,,,0.35,,,,,,,,,,,45
+Boots of Swiftness,Enhances Movement Speed and reduces the effect of slows,600,VERDADEIRO,900,630,Boots,,,,,,,,,,,,,,,,,,,,,,,,60
+Chemtech Putrifier,,550,VERDADEIRO,2300,1610,SpellDamage,ManaRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,55,,,,,
+Sorcerer's Shoes,Enhances Movement Speed and magic damage,800,VERDADEIRO,1100,770,Boots,MagicPenetration,,,,,,,,,,,,,,,,,,,,,,,45
+Glacial Buckler,Increases Armor and Cooldown Reduction,250,VERDADEIRO,900,630,Armor,Mana,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,20,250,,,,,,
+Guardian Angel,Periodically revives champion upon death,50,VERDADEIRO,2800,1120,Armor,Damage,,,,,,,,,,,,,40,,,40,,,,,,,
+Infinity Edge,Massively enhances critical strikes,625,VERDADEIRO,3400,2380,CriticalStrike,Damage,,,,,,,,,,,,,70,,,,,,0.2,,,,
+Mortal Reminder,Overcomes enemies with high Health recovery and Armor,650,VERDADEIRO,2500,1750,Damage,CriticalStrike,AttackSpeed,NonbootsMovement,,,,,,,,,,0.25,25,,,,,,0.2,0.07,,,
+Last Whisper,Overcomes enemies with high Armor,750,VERDADEIRO,1450,1015,ArmorPenetration,Damage,,,,,,,,,,,,,20,,,,,,,,,,
+Lord Dominik's Regards,Overcomes enemies with high health and armor,950,VERDADEIRO,3000,2100,Damage,CriticalStrike,ArmorPenetration,,,,,,,,,,,,30,,,,,,0.2,,,,
+Seraph's Embrace,,3000,FALSO,3000,2100,SpellDamage,Mana,,,,,,,,,,,,,,,,,860,65,,,,,
+Mejai's Soulstealer,Grants Ability Power for kills and assists,1250,VERDADEIRO,1600,1120,Health,SpellDamage,NonbootsMovement,,,,,,,,,,,,,,,,,20,,,100,,
+Muramana,,3000,FALSO,3000,2100,Damage,Mana,CooldownReduction,OnHit,ArmorPenetration,,,,,,,,,,35,,,,860,,,,,,
+Phage,Attacks and kills give a small burst of speed,350,VERDADEIRO,1100,770,Health,HealthRegen,Damage,,,,,,,,,,,,15,,,,,,,,200,,
+Phantom Dancer,Move faster while attacking enemies and gain a shield when on low health.,850,VERDADEIRO,2600,1820,Damage,CriticalStrike,AttackSpeed,NonbootsMovement,,,,,,,,,,0.25,20,,,,,,0.2,0.07,,,
+Plated Steelcaps,Enhances Movement Speed and reduces incoming basic attack damage,500,VERDADEIRO,1100,770,Armor,Boots,,,,,,,,,,,,,,,,20,,,,,,,45
+Zeke's Convergence,Grants you and your ally bonuses when you cast your ultimate.,700,VERDADEIRO,2400,1680,Health,Armor,Mana,Active,CooldownReduction,OnHit,AbilityHaste,,,,,,,,,,,25,250,,,,250,,
+Hearthbound Axe,,450,VERDADEIRO,1100,770,Damage,AttackSpeed,NonbootsMovement,,,,,,,,,,,0.15,15,,,,,,,,,,
+Sterak's Gage,Shields against large bursts of damage,725,VERDADEIRO,3100,2170,Health,Damage,,,,,,,,,,,,,50,,,,,,,,400,,
+Sheen,Grants a bonus to next attack after spell cast,700,VERDADEIRO,700,490,OnHit,,,,,,,,,,,,,,,,,,,,,,,,
+Spirit Visage,Increases Health and healing effects,850,VERDADEIRO,2900,2030,Health,SpellBlock,HealthRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,40,,,,,,450,,
+Winged Moonplate,,400,VERDADEIRO,800,560,Health,NonbootsMovement,,,,,,,,,,,,,,,,,,,,,150,,
+Kindlegem,Increases Health and Cooldown Reduction,400,VERDADEIRO,800,560,Health,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,,,200,,
+Sunfire Aegis,High armor. Constantly deals damage to nearby enemies. Immobilize enemies to release a wave of damaging flame,600,VERDADEIRO,3200,2240,Health,SpellBlock,Armor,Aura,CooldownReduction,AbilityHaste,,,,,,,,,,,30,30,,,,,350,,
+Tear of the Goddess,Increases maximum Mana as Mana is spent,400,VERDADEIRO,400,280,Mana,ManaRegen,,,,,,,,,,,,,,,,,240,,,,,,
+Black Cleaver,Dealing physical damage to enemy champions reduces their Armor,850,VERDADEIRO,3100,2170,Health,Damage,CooldownReduction,OnHit,NonbootsMovement,ArmorPenetration,AbilityHaste,,,,,,,,40,,,,,,,,450,,
+Bloodthirster,"Grants Attack Damage, Life Steal and Life Steal now overheals",600,VERDADEIRO,3400,2380,Damage,CriticalStrike,LifeSteal,,,,,,,,,,,,55,0.2,,,,,0.2,,,,
+Ravenous Hydra,"Melee attacks hit nearby enemies, dealing damage and restoring Health",100,VERDADEIRO,3300,2310,Damage,LifeSteal,CooldownReduction,SpellVamp,AbilityHaste,,,,,,,,,,65,,,,,,,,,,
+Thornmail,,1000,VERDADEIRO,2700,1890,Health,Armor,,,,,,,,,,,,,,,,60,,,,,350,,
+Bramble Vest,,200,VERDADEIRO,800,560,Armor,,,,,,,,,,,,,,,,,30,,,,,,,
+Tiamat,Melee attacks hit nearby enemies,325,VERDADEIRO,1200,840,Damage,,,,,,,,,,,,,,25,,,,,,,,,,
+Trinity Force,Tons of Damage,733,VERDADEIRO,3333,2333,Health,Damage,AttackSpeed,CooldownReduction,OnHit,NonbootsMovement,AbilityHaste,,,,,,,0.3,35,,,,,,,,200,,
+Warden's Mail,,400,VERDADEIRO,1000,700,Armor,,,,,,,,,,,,,,,,,40,,,,,,,
+Warmog's Armor,Grants massive Health and Health Regen,650,VERDADEIRO,3000,2100,Health,HealthRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,,800,,
+Runaan's Hurricane,Ranged attacks fire two bolts at nearby enemies,950,VERDADEIRO,2600,1820,CriticalStrike,AttackSpeed,OnHit,NonbootsMovement,,,,,,,,,,0.45,,,,,,,0.2,0.07,,,
+Zeal,"Slight bonuses to Critical Strike Chance, Movement Speed and Attack Speed",150,VERDADEIRO,1050,735,AttackSpeed,CriticalStrike,NonbootsMovement,,,,,,,,,,,0.18,,,,,,,0.15,,,,
+Rabadon's Deathcap,Massively increases Ability Power,1100,VERDADEIRO,3600,2520,SpellDamage,,,,,,,,,,,,,,,,,,,120,,,,,
+Wit's End,Resist magic damage and claw your way back to life.,750,VERDADEIRO,3100,2170,SpellBlock,Damage,AttackSpeed,OnHit,NonbootsMovement,,,,,,,,,0.4,40,,50,,,,,,,,
+Rapid Firecannon,Movement builds charges that release a sieging fire attack on release,750,VERDADEIRO,2500,1750,CriticalStrike,AttackSpeed,NonbootsMovement,,,,,,,,,,,0.35,,,,,,,0.2,0.07,,,
+Stormrazor,Tremendously empower other Energized effects.,100,VERDADEIRO,2700,1890,Damage,CriticalStrike,AttackSpeed,Slow,,,,,,,,,,0.15,40,,,,,,0.2,,,,
+Lich Bane,Grants a bonus to next attack after spell cast,600,VERDADEIRO,3000,2100,SpellDamage,OnHit,NonbootsMovement,,,,,,,,,,,,,,,,,75,,0.08,,,
+Banshee's Veil,Periodically blocks enemy abilities,700,VERDADEIRO,2600,1820,SpellBlock,SpellDamage,CooldownReduction,AbilityHaste,,,,,,,,,,,,,45,,,80,,,,,
+Aegis of the Legion,Grants Armor and Magic Resistance,750,VERDADEIRO,1500,1050,SpellBlock,Armor,CooldownReduction,AbilityHaste,,,,,,,,,,,,,30,30,,,,,,,
+Redemption,Activate to heal allies and damage enemies in an area,700,VERDADEIRO,2300,1610,Health,ManaRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,,200,,
+Fiendish Codex,Increases Ability Power and Cooldown Reduction,465,VERDADEIRO,900,630,SpellDamage,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,35,,,,,
+Knight's Vow,Partner with an ally to protect each other,700,VERDADEIRO,2300,1610,Health,HealthRegen,Aura,Active,CooldownReduction,NonbootsMovement,AbilityHaste,,,,,,,,,,,,,,,,400,,
+Frozen Heart,Massively increases Armor and slows enemy basic attacks,600,VERDADEIRO,2500,1750,Armor,Mana,Aura,CooldownReduction,AbilityHaste,,,,,,,,,,,,,80,400,,,,,,
+Mercury's Treads,Increases Movement Speed and reduces duration of disabling effects,350,VERDADEIRO,1100,770,Boots,SpellBlock,Tenacity,,,,,,,,,,,,,,25,,,,,,,,45
+Guardian's Orb,Good starting item for mages,950,VERDADEIRO,950,665,Health,SpellDamage,ManaRegen,Lane,,,,,,,,,,,,,,,,40,,,150,,
+Aether Wisp,Increases Ability Power and Movement Speed,415,VERDADEIRO,850,595,NonbootsMovement,SpellDamage,,,,,,,,,,,,,,,,,,30,,,,,
+Forbidden Idol,"Increases Heal and Shield Power, Mana Regeneration, and Cooldown Reduction",550,VERDADEIRO,800,560,ManaRegen,,,,,,,,,,,,,,,,,,,,,,,,
+Nashor's Tooth,"Increases Attack Speed, Ability Power, and Cooldown Reduction",715,VERDADEIRO,3000,2100,AttackSpeed,SpellDamage,OnHit,,,,,,,,,,,0.5,,,,,,100,,,,,
+Rylai's Crystal Scepter,Abilities slow enemies,815,VERDADEIRO,3000,2100,Health,SpellDamage,Slow,,,,,,,,,,,,,,,,,90,,,350,,
+Mobility Boots,Greatly enhances Movement Speed when out of combat,700,VERDADEIRO,1000,700,Boots,,,,,,,,,,,,,,,,,,,,,,,,115
+Executioner's Calling,Overcomes enemies with high health gain,450,VERDADEIRO,800,560,Damage,,,,,,,,,,,,,,15,,,,,,,,,,
+Guinsoo's Rageblade,,900,VERDADEIRO,2600,1820,CriticalStrike,AttackSpeed,OnHit,,,,,,,,,,,0.45,,,,,,,0.2,,,,
+Caulfield's Warhammer,Attack Damage and Cooldown Reduction,400,VERDADEIRO,1100,770,Damage,CooldownReduction,AbilityHaste,,,,,,,,,,,,25,,,,,,,,,,
+Serrated Dirk,Increases Attack Damage and Lethality,400,VERDADEIRO,1100,770,Damage,ArmorPenetration,,,,,,,,,,,,,30,,,,,,,,,,
+Void Staff,Increases magic damage,600,VERDADEIRO,2700,1890,MagicPenetration,SpellDamage,,,,,,,,,,,,,,,,,,70,,,,,
+Mercurial Scimitar,Activate to remove all crowd control debuffs and grant massive Movement Speed,225,VERDADEIRO,3000,2100,SpellBlock,Damage,CriticalStrike,Active,NonbootsMovement,Tenacity,,,,,,,,,40,,30,,,,0.2,,,,
+Quicksilver Sash,Activate to remove all crowd control debuffs,850,VERDADEIRO,1300,910,Active,SpellBlock,,,,,,,,,,,,,,,30,,,,,,,,
+Youmuu's Ghostblade,Activate to greatly increase Movement Speed,700,VERDADEIRO,2900,2030,Damage,Active,NonbootsMovement,ArmorPenetration,,,,,,,,,,,55,,,,,,,,,,
+Randuin's Omen,"Greatly increases defenses, activate to slow nearby enemies",600,VERDADEIRO,2700,1890,Health,Armor,Active,CooldownReduction,Slow,AbilityHaste,,,,,,,,,,,,80,,,,,250,,
+Hextech Alternator,Increases Ability Power. Deal bonus magic damage on attack periodically.,180,VERDADEIRO,1050,735,SpellDamage,,,,,,,,,,,,,,,,,,,40,,,,,
+Hextech Rocketbelt,Activate to dash forward and unleash a fiery explosion,900,VERDADEIRO,3200,2240,Health,SpellDamage,Active,CooldownReduction,NonbootsMovement,MagicPenetration,AbilityHaste,,,,,,,,,,,,,90,,,250,,
+Blade of The Ruined King,"Deals damage based on target's Health, can steal Movement Speed",425,VERDADEIRO,3200,2240,Damage,AttackSpeed,LifeSteal,Slow,OnHit,NonbootsMovement,,,,,,,,0.25,40,0.1,,,,,,,,,
+Hexdrinker,Increases Attack Damage and Magic Resist,500,VERDADEIRO,1300,910,Damage,SpellBlock,,,,,,,,,,,,,20,,35,,,,,,,,
+Maw of Malmortius,Grants bonus Attack Damage when Health is low,400,VERDADEIRO,2800,1960,SpellBlock,Damage,CooldownReduction,AbilityHaste,,,,,,,,,,,50,,50,,,,,,,,
+Zhonya's Hourglass,Activate to become invincible but unable to take actions,50,VERDADEIRO,2600,1820,Armor,SpellDamage,Active,CooldownReduction,AbilityHaste,,,,,,,,,,,,,45,,65,,,,,
+Ionian Boots of Lucidity,Increases Movement Speed and Cooldown Reduction,650,VERDADEIRO,950,665,Boots,CooldownReduction,,,,,,,,,,,,,,,,,,,,,,,45
+Morellonomicon,Increases magic damage,450,VERDADEIRO,2500,1750,Health,SpellDamage,,,,,,,,,,,,,,,,,,80,,,250,,
+Guardian's Blade,Good starting item for attackers,950,VERDADEIRO,950,665,Health,Damage,Lane,AbilityHaste,,,,,,,,,,,30,,,,,,,,150,,
+Umbral Glaive,Provides trap and ward detection periodically,600,VERDADEIRO,2400,1680,Damage,Vision,CooldownReduction,ArmorPenetration,AbilityHaste,,,,,,,,,,50,,,,,,,,,,
+Hullbreaker,,825,VERDADEIRO,2800,1960,Health,SpellBlock,Armor,Damage,,,,,,,,,,,50,,,,,,,,400,,
+Guardian's Hammer,Good starting item for attackers,950,VERDADEIRO,950,665,Health,Damage,LifeSteal,Lane,,,,,,,,,,,25,0.1,,,,,,,150,,
+Locket of the Iron Solari,Activate to shield nearby allies from damage,200,VERDADEIRO,2500,1750,Health,SpellBlock,Armor,Aura,Active,CooldownReduction,AbilityHaste,,,,,,,,,,30,30,,,,,200,,
+Seeker's Armguard,Increases Armor and Ability Power,265,VERDADEIRO,1000,700,Armor,SpellDamage,,,,,,,,,,,,,,,,15,,20,,,,,
+Gargoyle Stoneplate,Greatly increases defense near multiple enemies.,1050,VERDADEIRO,3300,2310,SpellBlock,Armor,Active,CooldownReduction,AbilityHaste,,,,,,,,,,,,60,60,,,,,,,
+Spectre's Cowl,Improves defense and grants regeneration upon being damaged,400,VERDADEIRO,1250,875,Health,HealthRegen,SpellBlock,,,,,,,,,,,,,,25,,,,,,250,,
+Mikael's Blessing,Activate to remove all disabling effects from an allied champion,600,VERDADEIRO,2300,1610,SpellBlock,ManaRegen,Active,CooldownReduction,Tenacity,AbilityHaste,,,,,,,,,,,50,,,,,,,,
+Scarecrow Effigy,Periodically place a Stealth Ward,0,VERDADEIRO,0,0,Active,Jungle,Lane,Trinket,Vision,,,,,,,,,,,,,,,,,,,,
+Stealth Ward,Periodically place a Stealth Ward,0,VERDADEIRO,0,0,Active,Jungle,Lane,Trinket,Vision,,,,,,,,,,,,,,,,,,,,
+Farsight Alteration,Grants increased range and reveals the targetted area,0,VERDADEIRO,0,0,Active,Trinket,Vision,,,,,,,,,,,,,,,,,,,,,,
+Oracle Lens,Disables nearby invisible wards and traps for a duration,0,VERDADEIRO,0,0,Active,Trinket,Vision,,,,,,,,,,,,,,,,,,,,,,
+Your Cut,,0,FALSO,0,0,Consumable,GoldPer,,,,,,,,,,,,,,,,,,,,,,,
+Ardent Censer,Shield and heal effects on other units grant both of you Attack Speed and their attacks deal additional on-hit magic damage.,630,VERDADEIRO,2300,1610,AttackSpeed,SpellDamage,ManaRegen,OnHit,,,,,,,,,,,,,,,,60,,,,,
+Essence Reaver,,400,VERDADEIRO,2800,1960,Damage,CriticalStrike,ManaRegen,CooldownReduction,OnHit,AbilityHaste,,,,,,,,,45,,,,,,0.2,,,,
+Eye of the Herald,Eye of the Herald - a Gift of the Void.,0,FALSO,0,0,Trinket,Active,,,,,,,,,,,,,,,,,,,,,,,
+Kalista's Black Spear,Kalista's spear that binds an Oathsworn Ally.,0,VERDADEIRO,0,0,Consumable,,,,,,,,,,,,,,,,,,,,,,,,
+Kalista's Black Spear,Kalista's spear that binds an Oathsworn Ally.,0,VERDADEIRO,0,0,Consumable,,,,,,,,,,,,,,,,,,,,,,,,
+Dead Man's Plate,Build momentum as you move around then smash into enemies.,900,VERDADEIRO,2900,2030,Health,Armor,Slow,NonbootsMovement,,,,,,,,,,,,,,45,,,,0.05,300,,
+Titanic Hydra,Deals area of effect damage based on owner's health,800,VERDADEIRO,3300,2310,Health,HealthRegen,Damage,OnHit,,,,,,,,,,,30,,,,,,,,500,,
+Crystalline Bracer,Grants Health and Health Regen,100,VERDADEIRO,650,455,Health,HealthRegen,,,,,,,,,,,,,,,,,,,,,200,,
+Lost Chapter,Restores Mana upon levelling up.,80,VERDADEIRO,1300,910,SpellDamage,Mana,ManaRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,300,40,,,,,
+Edge of Night,Periodically blocks enemy abilities,1050,VERDADEIRO,2900,2030,Health,Damage,ArmorPenetration,,,,,,,,,,,,50,,,,,,,,325,,
+Spellthief's Edge,Gain gold and upgrade by damaging enemy champions,400,VERDADEIRO,400,160,Health,SpellDamage,ManaRegen,Vision,GoldPer,Lane,,,,,,,,,,,,,,8,,,10,,
+Frostfang,,400,FALSO,400,160,GoldPer,Lane,ManaRegen,SpellDamage,,,,,,,,,,,,,,,,15,,,70,,
+Shard of True Ice,,400,FALSO,400,160,GoldPer,Lane,ManaRegen,SpellDamage,,,,,,,,,,,,,,,,40,,,75,,
+Steel Shoulderguards,Gain gold and upgrade by executing minions alongside allies,400,VERDADEIRO,400,160,Health,HealthRegen,Damage,Vision,GoldPer,Lane,,,,,,,,,3,,,,,,,,30,,
+Runesteel Spaulders,,400,FALSO,400,160,Health,HealthRegen,GoldPer,Lane,,,,,,,,,,,6,,,,,,,,100,,
+Pauldrons of Whiterock,,400,FALSO,400,160,Health,HealthRegen,GoldPer,Lane,,,,,,,,,,,15,,,,,,,,250,,
+Relic Shield,Gain gold and upgrade by executing minions alongside allies,400,VERDADEIRO,400,160,Health,HealthRegen,SpellDamage,Vision,GoldPer,Lane,,,,,,,,,,,,,,5,,,30,,
+Targon's Buckler,,400,FALSO,400,160,Health,HealthRegen,GoldPer,Lane,,,,,,,,,,,,,,,,10,,,100,,
+Bulwark of the Mountain,,400,FALSO,400,160,Health,HealthRegen,GoldPer,Lane,,,,,,,,,,,,,,,,20,,,250,,
+Spectral Sickle,Gain gold and upgrade by damaging enemy champions,400,VERDADEIRO,400,160,Health,Damage,ManaRegen,Vision,GoldPer,Lane,,,,,,,,,5,,,,,,,,10,,
+Harrowing Crescent,,400,FALSO,400,160,Health,ManaRegen,GoldPer,Lane,,,,,,,,,,,10,,,,,,,,60,,
+Black Mist Scythe,,400,FALSO,400,160,Health,ManaRegen,GoldPer,Lane,,,,,,,,,,,20,,,,,,,,75,,
+Oblivion Orb,Increases magic damage,365,VERDADEIRO,800,560,SpellDamage,,,,,,,,,,,,,,,,,,,30,,,,,
+Imperial Mandate,Defer damage until later.,750,VERDADEIRO,2500,1750,Health,SpellDamage,ManaRegen,CooldownReduction,NonbootsMovement,,,,,,,,,,,,,,,40,,,200,,
+Force of Nature,"Movement Speed, Magic Resist, and max Health Regeneration",800,VERDADEIRO,2900,2030,Health,SpellBlock,NonbootsMovement,,,,,,,,,,,,,,60,,,,,0.05,350,,
+The Golden Spatula,It does EVERYTHING!,687,VERDADEIRO,7487,5241,Health,SpellBlock,HealthRegen,Armor,Damage,CriticalStrike,AttackSpeed,LifeSteal,SpellDamage,Mana,ManaRegen,CooldownReduction,NonbootsMovement,0.5,70,0.1,30,30,250,120,0.3,0.1,250,,
+Horizon Focus,Immobilizing a champion causes lightning to strike them,700,VERDADEIRO,3000,2100,SpellDamage,,,,,,,,,,,,,,,,,,,115,,,,,
+Cosmic Drive,Massive amounts of Cooldown Reduction,865,VERDADEIRO,3000,2100,Health,SpellDamage,CooldownReduction,NonbootsMovement,AbilityHaste,,,,,,,,,,,,,,,80,,,200,,
+Blighting Jewel,,815,VERDADEIRO,1250,875,MagicPenetration,SpellDamage,,,,,,,,,,,,,,,,,,25,,,,,
+Verdant Barrier,,115,VERDADEIRO,1000,700,SpellBlock,SpellDamage,,,,,,,,,,,,,,,25,,,20,,,,,
+Riftmaker,,1050,VERDADEIRO,3200,2240,Health,SpellDamage,CooldownReduction,SpellVamp,MagicPenetration,AbilityHaste,,,,,,,,,,,,,,80,,,300,,
+Leeching Leer,,465,VERDADEIRO,1300,910,Health,SpellDamage,SpellVamp,,,,,,,,,,,,,,,,,20,,,250,,
+Night Harvester,,900,VERDADEIRO,3200,2240,Health,SpellDamage,CooldownReduction,NonbootsMovement,AbilityHaste,,,,,,,,,,,,,,,90,,,300,,
+Demonic Embrace,,815,VERDADEIRO,3000,2100,Health,SpellDamage,,,,,,,,,,,,,,,,,,70,,,350,,
+Watchful Wardstone,,1100,VERDADEIRO,1100,770,Health,Vision,Active,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,150,,
+Bandleglass Mirror,,265,VERDADEIRO,950,665,SpellDamage,ManaRegen,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,20,,,,,
+Vigilant Wardstone,,0,FALSO,1100,770,Health,Vision,Active,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,150,,
+Ironspike Whip,,225,VERDADEIRO,1100,770,Damage,Active,,,,,,,,,,,,,30,,,,,,,,,,
+Silvermere Dawn,,425,VERDADEIRO,3000,2100,Health,SpellBlock,Damage,Active,Tenacity,,,,,,,,,,40,,35,,,,,,300,,
+Death's Dance,,325,VERDADEIRO,3100,2170,Armor,Damage,CooldownReduction,AbilityHaste,,,,,,,,,,,55,,,45,,,,,,,
+Chempunk Chainsword,,300,VERDADEIRO,2600,1820,Health,Damage,CooldownReduction,AbilityHaste,,,,,,,,,,,45,,,,,,,,250,,
+Staff of Flowing Water,Your heals and shields reduce crowd control and grant movement speed,630,VERDADEIRO,2300,1610,SpellDamage,ManaRegen,AbilityHaste,,,,,,,,,,,,,,,,,50,,,,,
+Moonstone Renewer,Your heals and shields cool down faster and have greater effect on low health allies,750,VERDADEIRO,2500,1750,Health,SpellDamage,CooldownReduction,,,,,,,,,,,,,,,,,40,,,200,,
+Goredrinker,,300,VERDADEIRO,3300,2310,Health,Damage,LifeSteal,Active,CooldownReduction,SpellVamp,AbilityHaste,,,,,,,,45,,,,,,,,450,,
+Stridebreaker,,300,VERDADEIRO,3300,2310,Health,Damage,AttackSpeed,Active,CooldownReduction,Slow,NonbootsMovement,AbilityHaste,,,,,,0.2,50,,,,,,,,300,,
+Divine Sunderer,,700,VERDADEIRO,3300,2310,Health,Damage,LifeSteal,CooldownReduction,OnHit,MagicPenetration,ArmorPenetration,AbilityHaste,,,,,,,35,,,,,,,,400,,
+Liandry's Anguish,"Charge up in combat to deal high damage over time, especially against durable enemies",1000,VERDADEIRO,3200,2240,SpellDamage,Mana,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,600,80,,,,,
+Luden's Tempest,"High burst damage, good against fragile foes",1050,VERDADEIRO,3200,2240,SpellDamage,Mana,CooldownReduction,NonbootsMovement,MagicPenetration,AbilityHaste,,,,,,,,,,,,,600,80,,,,,
+Everfrost,,250,VERDADEIRO,3200,2240,Health,SpellDamage,Mana,Active,CooldownReduction,Slow,AbilityHaste,,,,,,,,,,,,600,80,,,250,,
+Bami's Cinder,,300,VERDADEIRO,1100,770,Health,,,,,,,,,,,,,,,,,,,,,,300,,
+Frostfire Gauntlet,"High Magic Resist.Passively slow nearby enemies. When spells are cast near you, release a wave of energy that damages and slows.",950,VERDADEIRO,2800,1960,Health,SpellBlock,Armor,Aura,CooldownReduction,Slow,AbilityHaste,,,,,,,,,,25,25,,,,,350,,
+Turbo Chemtank,Immobilize enemies to gain a shield. Activate to run faster at opponents.,950,VERDADEIRO,2800,1960,Health,SpellBlock,Armor,Aura,Active,CooldownReduction,Slow,NonbootsMovement,Tenacity,AbilityHaste,,,,,,,25,25,,,,,350,,
+Noonquiver,,300,VERDADEIRO,1300,910,Damage,AttackSpeed,,,,,,,,,,,,0.15,30,,,,,,,,,,
+Galeforce,,625,VERDADEIRO,3400,2380,Damage,CriticalStrike,AttackSpeed,Active,NonbootsMovement,,,,,,,,,0.2,60,,,,,,0.2,,,,
+Kraken Slayer,,625,VERDADEIRO,3400,2380,Damage,CriticalStrike,AttackSpeed,ArmorPenetration,,,,,,,,,,0.25,65,,,,,,0.2,,,,
+Immortal Shieldbow,,600,VERDADEIRO,3400,2380,Health,Damage,CriticalStrike,AttackSpeed,LifeSteal,,,,,,,,,0.2,55,0.1,,,,,0.2,,,,
+Navori Quickblades,,825,VERDADEIRO,3400,2380,Damage,CriticalStrike,CooldownReduction,AbilityHaste,,,,,,,,,,,60,,,,,,0.2,,,,
+The Collector,,425,VERDADEIRO,3000,2100,Damage,CriticalStrike,ArmorPenetration,,,,,,,,,,,,55,,,,,,0.2,,,,
+Rageknife,,200,VERDADEIRO,800,560,AttackSpeed,OnHit,,,,,,,,,,,,0.25,,,,,,,,,,,
+Duskblade of Draktharr,,1000,VERDADEIRO,3200,2240,Damage,Stealth,CooldownReduction,Slow,ArmorPenetration,AbilityHaste,,,,,,,,,60,,,,,,,,,,
+Eclipse,,850,VERDADEIRO,3200,2240,Damage,LifeSteal,SpellVamp,NonbootsMovement,ArmorPenetration,,,,,,,,,,55,,,,,,,,,,
+Prowler's Claw,,1000,VERDADEIRO,3200,2240,Damage,Active,CooldownReduction,NonbootsMovement,ArmorPenetration,AbilityHaste,,,,,,,,,60,,,,,,,,,,
+Serylda's Grudge,,650,VERDADEIRO,3200,2240,Damage,CooldownReduction,ArmorPenetration,AbilityHaste,,,,,,,,,,,45,,,,,,,,,,
+Serpent's Fang,,625,VERDADEIRO,2600,1820,Damage,ArmorPenetration,,,,,,,,,,,,,55,,,,,,,,,,
+Anathema's Chains,,800,VERDADEIRO,2500,1750,Health,Active,CooldownReduction,AbilityHaste,,,,,,,,,,,,,,,,,,,650,,

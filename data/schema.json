@@ -115,7 +115,7 @@
             "type":"championsNames",
             "indexed":true
         },
-        {
+        {   
             "name":"spells__Q_description",
             "type":"bigText",
             "indexed":true
