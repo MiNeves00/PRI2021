@@ -10,7 +10,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             },
             "queryAnalyzer":{
@@ -20,7 +20,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             }
         },
@@ -34,7 +34,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"}
@@ -48,7 +48,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"}
@@ -111,9 +111,60 @@
             "indexed": true
         },
         {
+
             "name": "skins",
             "type": "championsNames",
             "indexed": true
+        },
+        {
+            "name":"spells__Q",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__Q_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__W",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__W_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__E",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__E_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__R",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"spells__R_description",
+            "type":"bigText",
+            "indexed":true
+	},
+        {
+            "name":"passive__name",
+            "type":"championsNames",
+            "indexed":true
+        },
+        {
+            "name":"passive__description",
+            "type":"bigText",
+            "indexed":true
         }
 
     ]

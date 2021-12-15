@@ -51,23 +51,6 @@ def organize():
     df =df.drop(["skins__name015"],axis=1)
     df["skins"]=skins_coluna
     
-    tags_coluna=[]
-    for i, row in df.iterrows():
-        tags=[]
-        tags.append(row["tags__001"])
-        tags.append(row["tags__002"])
-
-        tags_result=[]
-        for tag in tags:
-            if type(tag)!= float:
-                tags_result.append(tag)
-                
-        
-        tags_coluna.append(tags_result)
-
-    df = df.drop(["tags__001"],axis=1)
-    df = df.drop(["tags__002"],axis=1)
-    df["tags"]=tags_coluna
 
 
     allytips_coluna=[]
@@ -119,7 +102,63 @@ def organize():
     df= df.drop(["enemytips__003"],axis=1)
     df= df.drop(["enemytips__004"],axis=1)
 
-    df.drop()
+    df = df.drop(["info__attack"],axis=1)
+    df = df.drop(["info__defense"],axis=1)
+    df = df.drop(["info__magic"],axis=1)
+    
+    df = df.drop(["stats__hp"],axis=1)
+    df = df.drop(["stats__hpperlevel"],axis=1)
+    df = df.drop(["stats__mp"],axis=1)
+    df = df.drop(["stats__mpperlevel"],axis=1)
+    df = df.drop(["stats__movespeed"],axis=1)
+    df = df.drop(["stats__armor"],axis=1)
+    df = df.drop(["stats__armorperlevel"],axis=1)
+    df = df.drop(["stats__spellblock"],axis=1)
+    df = df.drop(["stats__spellblockperlevel"],axis=1)
+    df = df.drop(["stats__attackrange"],axis=1)
+    df = df.drop(["stats__hpregen"],axis=1)
+    df = df.drop(["stats__hpregenperlevel"],axis=1)
+    df = df.drop(["stats__mpregen"],axis=1)
+    df = df.drop(["stats__mpregenperlevel"],axis=1)
+    df = df.drop(["stats__attackdamage"],axis=1)
+    df = df.drop(["stats__attackdamageperlevel"],axis=1)
+    df = df.drop(["stats__attackspeedperlevel"],axis=1)
+    df = df.drop(["stats__attackspeed"],axis=1)
+    
+    
+    df = df.drop(["stats_hp_lvl18"],axis=1)
+    df = df.drop(["stats_mp_lvl18"],axis=1)
+    df = df.drop(["stats_armor_lvl18"],axis=1)
+    df = df.drop(["stats_spellblock_lvl18"],axis=1)
+    df = df.drop(["stats_hpregen_lvl18"],axis=1)
+    df = df.drop(["stats_mpregen_lvl18"],axis=1)
+    df = df.drop(["stats_attackdamage_lvl18"],axis=1)
+    df = df.drop(["stats_attackdamageperlevel_lvl18"],axis=1)
+    #df = df.drop(["Unnamed__0"],axis=1)
+    
+    df = df.drop(["lore_gpe_0"],axis=1)
+    df = df.drop(["lore_gpe_1"],axis=1)
+    df = df.drop(["lore_gpe_2"],axis=1)
+    df = df.drop(["lore_gpe_3"],axis=1)
+    df = df.drop(["lore_gpe_4"],axis=1)
+    df = df.drop(["lore_gpe_5"],axis=1)
+    df = df.drop(["lore_gpe_6"],axis=1)
+    df = df.drop(["lore_gpe_7"],axis=1)
+    df = df.drop(["lore_gpe_8"],axis=1)
+    df = df.drop(["lore_gpe_9"],axis=1)
+    df = df.drop(["lore_person_0"],axis=1)
+    df = df.drop(["lore_person_1"],axis=1)
+    df = df.drop(["lore_person_2"],axis=1)
+    df = df.drop(["lore_event_0"],axis=1)
+    df = df.drop(["lore_norp_0"],axis=1)
+    df = df.drop(["lore_norp_1"],axis=1)
+    df = df.drop(["lore_norp_2"],axis=1)
+    df = df.drop(["lore_norp_3"],axis=1)
+    df = df.drop(["lore_norp_4"],axis=1)
+    df = df.drop(["lore_norp_5"],axis=1)
+    df = df.drop(["lore_norp_6"],axis=1)
+
+    
     df["enemytips"]=enemytips_coluna
 
     
