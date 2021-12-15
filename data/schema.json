@@ -10,7 +10,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             },
             "queryAnalyzer":{
@@ -20,7 +20,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
                 ]
             }
         },
@@ -85,12 +85,7 @@
             "indexed": true
         },
         {
-            "name": "tags__001",
-            "type": "championsNames",
-            "indexed": true
-        },
-        {
-            "name": "tags__002",
+            "name": "tags",
             "type": "championsNames",
             "indexed": true
         },
@@ -100,34 +95,20 @@
             "indexed":true
         },
         {
-            "name":"skins__name01",
-            "type":"championsNames",
-            "indexed":true
+            "name": "allytips",
+            "type": "bigText",
+            "indexed": true
         },
         {
-            "name":"skins__name02",
-            "type":"championsNames",
-            "indexed":true
+            "name": "enemytips",
+            "type": "bigText",
+            "indexed": true
         },
         {
-            "name":"skins__name03",
-            "type":"championsNames",
-            "indexed":true
-        },
-        {
-            "name":"skins__name04",
-            "type":"championsNames",
-            "indexed":true
-        },
-        {
-            "name":"skins__name05",
-            "type":"championsNames",
-            "indexed":true
-        },
-        {
-            "name":"skins__name06",
-            "type":"championsNames",
-            "indexed":true
+
+            "name": "skins",
+            "type": "championsNames",
+            "indexed": true
         },
         {
             "name":"spells__Q",
@@ -136,7 +117,7 @@
         },
         {
             "name":"spells__Q_description",
-            "type":"championsNames",
+            "type":"bigText",
             "indexed":true
         },
         {
@@ -146,7 +127,7 @@
         },
         {
             "name":"spells__W_description",
-            "type":"championsNames",
+            "type":"bigText",
             "indexed":true
         },
         {
@@ -156,7 +137,7 @@
         },
         {
             "name":"spells__E_description",
-            "type":"championsNames",
+            "type":"bigText",
             "indexed":true
         },
         {
@@ -166,10 +147,19 @@
         },
         {
             "name":"spells__R_description",
+            "type":"bigText",
+            "indexed":true
+	},
+        {
+            "name":"passive__name",
             "type":"championsNames",
             "indexed":true
-        }
-
+        },
+        {
+            "name":"passive__description",
+            "type":"bigText",
+            "indexed":true
+        },
 
     ]
     
