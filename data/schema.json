@@ -50,7 +50,15 @@
                 },
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
-                    {"class":"solr.LowerCaseFilterFactory"}
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
+                    {"class":"solr.BeiderMorseFilterFactory" ,"nameType":"GENERIC", "ruleType":"APPROX", "concat":"true", "languageSet":"English"},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"},
+                    {"class":"solr.FingerprintFilterFactory"},
+                    {"class":"solr.ManagedSynonymGraphFilterFactory", "managed":"english"},
+                    {"class":"solr.FlattenGraphFilterFactory"},
+                    {"class":"solr.RemoveDuplicatesTokenFilterFactory"}
                     
                 ]
             }
