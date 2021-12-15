@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def organize():
-    df = pd.read_csv(r"PRI2021\data\csv\champions.csv",sep=',',index_col=[0])
+    df = pd.read_csv("data/csv/champions.csv",sep=',',index_col=[0])
     skins_coluna=[]
     for i, row in df.iterrows():
         skins=[]
@@ -136,12 +136,34 @@ def organize():
     df = df.drop(["stats_attackdamageperlevel_lvl18"],axis=1)
     #df = df.drop(["Unnamed__0"],axis=1)
     
+    df = df.drop(["lore_gpe_0"],axis=1)
+    df = df.drop(["lore_gpe_1"],axis=1)
+    df = df.drop(["lore_gpe_2"],axis=1)
+    df = df.drop(["lore_gpe_3"],axis=1)
+    df = df.drop(["lore_gpe_4"],axis=1)
+    df = df.drop(["lore_gpe_5"],axis=1)
+    df = df.drop(["lore_gpe_6"],axis=1)
+    df = df.drop(["lore_gpe_7"],axis=1)
+    df = df.drop(["lore_gpe_8"],axis=1)
+    df = df.drop(["lore_gpe_9"],axis=1)
+    df = df.drop(["lore_person_0"],axis=1)
+    df = df.drop(["lore_person_1"],axis=1)
+    df = df.drop(["lore_person_2"],axis=1)
+    df = df.drop(["lore_event_0"],axis=1)
+    df = df.drop(["lore_norp_0"],axis=1)
+    df = df.drop(["lore_norp_1"],axis=1)
+    df = df.drop(["lore_norp_2"],axis=1)
+    df = df.drop(["lore_norp_3"],axis=1)
+    df = df.drop(["lore_norp_4"],axis=1)
+    df = df.drop(["lore_norp_5"],axis=1)
+    df = df.drop(["lore_norp_6"],axis=1)
+
     
     df["enemytips"]=enemytips_coluna
 
     
     
-    df.to_csv("PRI2021/data/csv/new_champions.csv",index=False)
+    df.to_csv("data/csv/new_champions.csv",index=False)
 
 
 
