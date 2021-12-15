@@ -19,4 +19,11 @@ http://localhost:8983/solr/#/champions/query?q=skins:Project%20%26%26%20-partype
 
 
 
-# ItemsS
+# Items
+
+Itens com a tag MagicPenetration sendo q existe armorpen e armor
+http://localhost:8983/solr/#/items/query?q=MagicPenetration&q.op=OR&defType=dismax&indent=true&qf=tags&rows=100
+
+
+Itens com a descricao de Increases attack damage
+http://localhost:8983/solr/#/items/query?q=increase%20attack%20damage&q.op=OR&defType=dismax&indent=true&qf=plaintext&rows=100
