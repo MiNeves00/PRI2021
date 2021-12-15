@@ -10,7 +10,10 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
                 ]
             },
             "queryAnalyzer":{
@@ -20,7 +23,10 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8}
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
                 ]
             }
         },
@@ -34,7 +40,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"}
@@ -48,7 +54,7 @@
                 "filters":[
                     {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
                     {"class":"solr.LowerCaseFilterFactory"},
-                    {"class":"solr.NGramTokenizerFactory", "minGramSize":4 ,"maxGramSize":8},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
 
                     {"class":"solr.ClassicFilterFactory"},
                     {"class":"solr.EnglishPossessiveFilterFactory"}
@@ -85,16 +91,10 @@
             "indexed": true
         },
         {
-            "name": "tags__001",
+            "name": "tags",
             "type": "championsNames",
             "indexed": true
         },
-        {
-            "name": "tags__002",
-            "type": "championsNames",
-            "indexed": true
-        },
-    
         {
             "name":"lore",
             "type":"bigText",
@@ -121,7 +121,7 @@
             "type":"championsNames",
             "indexed":true
         },
-        {   
+        {
             "name":"spells__Q_description",
             "type":"bigText",
             "indexed":true

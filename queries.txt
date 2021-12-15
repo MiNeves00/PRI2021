@@ -1,3 +1,22 @@
-Skins Victorious da ultima skin do champ para o primeiro, obrigando a ter skin
 
-http://localhost:8983/solr/#/champions/query?q=Victorious&q.op=OR&defType=dismax&indent=true&qf=skins__name01%5E1%20skins__name02%5E2%20skins__name03%5E3%20skins__name04%5E4%20skins__name05%5E5&qt=
+# Champions
+
+Tag (por ordem 1 e 2) e 2 Regiões por ordem (ainda n funciona a ordem)
+http://localhost:8983/solr/#/champions/query?q=tags__001:Fighter%20%26%26%20lore:(Demacia%5E2%20%7C%7C%20Ionia)&q.op=OR&defType=dismax&indent=true&qf=tags__001%5E2%20tags__002%20lore%5E3&qt=
+
+Nome do champion com acentos, letras mal
+http://localhost:8983/solr/#/champions/query?q=Eur%C3%A9li'%C3%B5n&q.op=OR&defType=dismax&indent=true&qf=name&qt=
+
+Nome do champion e sword or blade nos seus atributos com diferentes pesos
+http://localhost:8983/solr/#/champions/query?q=lore:Yone%20%26%26%20(sword%20%7C%7C%20blade)&q.op=OR&defType=dismax&indent=true&qf=title%5E10%20lore%20spells__Q%5E3%20spells__W%5E3%20spells__E%5E3%20spells__R%5E7%20passive__name%5E2&qt=
+
+Assissins que tem dashes ou mobility
+
+http://localhost:8983/solr/#/champions/query?q=spells__Q:(dash%20jump%20blink)%5E2%0Aspells__Q_description:(dash%20jump%20blink)%0Aspells__W:dash%20%5E2%0Aspells__W_description:(dash%20jump%20blink)%0Aspells__E:dash%20%5E2%0Aspells__E_description:(dash%20jump%20blink)%0Aspells__R:dash%20%5E5%0Aspells__R_description:(dash%20jump%20blink)%5E4%0A%26%26%20%2B(tags__001:Assassin%20%7C%7C%20tags__002:Assassin)&q.op=OR&indent=true&qt=
+
+Skins Project e que não usem mana
+http://localhost:8983/solr/#/champions/query?q=skins:Project%20%26%26%20-partype:mana&q.op=OR&indent=true&qt=
+
+
+
+# ItemsS
