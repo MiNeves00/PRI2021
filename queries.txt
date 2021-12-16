@@ -1,18 +1,18 @@
 
 # Champions
 
-Tag (por ordem 1 e 2) e 2 Regiões por ordem (ainda n funciona a ordem)
-http://localhost:8983/solr/#/champions/query?q=tags__001:Fighter%20%26%26%20lore:(Demacia%5E2%20%7C%7C%20Ionia)&q.op=OR&defType=dismax&indent=true&qf=tags__001%5E2%20tags__002%20lore%5E3&qt=
+Tag (por ordem 1 e 2) e 2 Regiões
+http://localhost:8983/solr/#/champions/query?q=Fighter%20%26%26%20lore:(Demacia%20%7C%7C%20Ionia)&q.op=OR&defType=dismax&indent=true&qf=tags__001%5E2%20tags__002%20lore&qt=
 
 Nome do champion com acentos, letras mal
 http://localhost:8983/solr/#/champions/query?q=Eur%C3%A9li'%C3%B5n&q.op=OR&defType=dismax&indent=true&qf=name&qt=
 
-Nome do champion e sword or blade nos seus atributos com diferentes pesos
-http://localhost:8983/solr/#/champions/query?q=lore:Yone%20%26%26%20(sword%20%7C%7C%20blade)&q.op=OR&defType=dismax&indent=true&qf=title%5E10%20lore%20spells__Q%5E3%20spells__W%5E3%20spells__E%5E3%20spells__R%5E7%20passive__name%5E2&qt=
+lore que contenha sword or blade or dagger or axe
+http://localhost:8983/solr/#/champions/query?q=lore:%20sword%20%20blade%20dagger%20axe&q.op=OR&indent=true&rows=20&qt=
 
-Assissins que tem dashes ou mobility
+Assassins que tem dashes ou mobility
 
-http://localhost:8983/solr/#/champions/query?q=spells__Q:(dash%20jump%20blink)%5E2%0Aspells__Q_description:(dash%20jump%20blink)%0Aspells__W:dash%20%5E2%0Aspells__W_description:(dash%20jump%20blink)%0Aspells__E:dash%20%5E2%0Aspells__E_description:(dash%20jump%20blink)%0Aspells__R:dash%20%5E5%0Aspells__R_description:(dash%20jump%20blink)%5E4%0A%26%26%20%2B(tags__001:Assassin%20%7C%7C%20tags__002:Assassin)&q.op=OR&indent=true&qt=
+http://localhost:8983/solr/#/champions/query?q=spells__Q:(dash%20jump%20blink%20teleport%20mobility)%5E2%0Aspells__Q_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__W:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__W_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__E:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__E_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__R:(dash%20jump%20blink%20teleport%20mobility)%20%5E5%0Aspells__R_description:(dash%20jump%20blink%20teleport%20mobility)%5E4%0A%26%26%20%2B(tags__001:Assassin%20%7C%7C%20tags__002:Assassin)&q.op=OR&indent=true&rows=20&qt=
 
 Skins Project e que não usem mana
 http://localhost:8983/solr/#/champions/query?q=skins:Project%20%26%26%20-partype:mana&q.op=OR&indent=true&qt=
@@ -21,9 +21,8 @@ http://localhost:8983/solr/#/champions/query?q=skins:Project%20%26%26%20-partype
 
 # Items
 
-Itens com a tag MagicPenetration sendo q existe armorpen e armor
-http://localhost:8983/solr/#/items/query?q=MagicPenetration&q.op=OR&defType=dismax&indent=true&qf=tags&rows=100
-
+Itens com a tag ArmorPenetration sendo q existe magicpen e armor
+http://localhost:8983/solr/#/items/query?q=ArmorPenetration&q.op=OR&defType=dismax&indent=true&qf=tags&rows=100
 
 Itens com a descricao de Increases attack damage
 http://localhost:8983/solr/#/items/query?q=increase%20attack%20damage&q.op=OR&defType=dismax&indent=true&qf=plaintext&rows=100
