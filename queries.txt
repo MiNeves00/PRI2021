@@ -12,11 +12,16 @@ http://localhost:8983/solr/#/champions/query?q=lore:%20sword%20%20blade%20dagger
 
 Assassins que tem dashes ou mobility
 
-http://localhost:8983/solr/#/champions/query?q=spells__Q:(dash%20jump%20blink%20teleport%20mobility)%5E2%0Aspells__Q_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__W:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__W_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__E:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__E_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__R:(dash%20jump%20blink%20teleport%20mobility)%20%5E5%0Aspells__R_description:(dash%20jump%20blink%20teleport%20mobility)%5E4%0A%26%26%20%2B(tags__001:Assassin%20%7C%7C%20tags__002:Assassin)&q.op=OR&indent=true&rows=20&qt=
+Normal: http://localhost:8983/solr/champions/select?indent=true&q.op=OR&q=spells__Q%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__Q_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__W%3A(dash%20jump%20blink%20teleport%20mobility)%20%0Aspells__W_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__E%3A(dash%20jump%20blink%20teleport%20mobility)%20%0Aspells__E_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__R%3A(dash%20jump%20blink%20teleport%20mobility)%20%0Aspells__R_description%3A(dash%20jump%20blink%20teleport%20mobility)%0A%26%26%20%2B(tags__001%3AAssassin%20%7C%7C%20tags__002%3AAssassin)&rows=20
+Boosted: http://localhost:8983/solr/#/champions/query?q=spells__Q:(dash%20jump%20blink%20teleport%20mobility)%5E2%0Aspells__Q_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__W:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__W_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__E:(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__E_description:(dash%20jump%20blink%20teleport%20mobility)%0Aspells__R:(dash%20jump%20blink%20teleport%20mobility)%20%5E5%0Aspells__R_description:(dash%20jump%20blink%20teleport%20mobility)%5E4%0A%26%26%20%2B(tags__001:Assassin%20%7C%7C%20tags__002:Assassin)&q.op=OR&indent=true&rows=20&qt=
 
 Skins Project e que não usem mana
 http://localhost:8983/solr/#/champions/query?q=skins:Project%20%26%26%20-partype:mana&q.op=OR&indent=true&qt=
 
+Lore City of Progress
+
+Normal: http://localhost:8983/solr/champions/select?indent=true&q.op=OR&q=lore%3A%22City%20of%20progress%22
+Boosted http://localhost:8983/solr/champions/select?indent=true&q.op=OR&q=lore%3A%22City%5E3%20of%20Progress%22
 
 
 # Items
