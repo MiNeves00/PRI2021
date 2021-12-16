@@ -6,8 +6,8 @@ import json
 import requests
 import pandas as pd
 
-QRELS_FILE = "src/QRELS_attack_dmg.txt"
-QUERY_URL = "http://localhost:8983/solr/items/select?defType=dismax&fl=*%2Cscore&indent=true&q.op=OR&q=increase%20attack%20damage&qf=plaintext&rows=10"
+QRELS_FILE = "src/QRELS_champions4.txt"
+QUERY_URL = "http://localhost:8983/solr/champions/select?indent=true&q.op=OR&q=spells__Q%3A(dash%20jump%20blink%20teleport%20mobility)%5E2%0Aspells__Q_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__W%3A(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__W_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__E%3A(dash%20jump%20blink%20teleport%20mobility)%20%5E2%0Aspells__E_description%3A(dash%20jump%20blink%20teleport%20mobility)%0Aspells__R%3A(dash%20jump%20blink%20teleport%20mobility)%20%5E5%0Aspells__R_description%3A(dash%20jump%20blink%20teleport%20mobility)%5E4%0A%26%26%20%2B(tags__001%3AAssassin%20%7C%7C%20tags__002%3AAssassin)&rows=20"
 
 # Read qrels to extract relevant documents
 relevant = list(map(lambda el: el.strip(), open(QRELS_FILE).readlines()))
@@ -54,7 +54,7 @@ df = pd.DataFrame([['Metric','Value']] +
     ]
 )
 
-with open('results.tex','w') as tf:
+with open('evaluations/results.tex','w') as tf:
     tf.write(df.to_latex())
 
 
@@ -99,4 +99,4 @@ plt.xlim([0, 1.1])
 plt.xticks([0, 0.2, 0.4, 0.6, 0.8, 1])
 plt.yticks([0.2, 0.4, 0.6, 0.8, 1])
 print(precision_values)
-plt.savefig('precision_recall.pdf')
+plt.savefig('evaluations/precision_recall.pdf')
