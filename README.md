@@ -8,9 +8,11 @@ João Gonçalves up201806162
 Pedro Coelho upxxxxxxxx
 
 
-##TO DO <br>
-Scraping do lore <br>
-makefile <br>
-report<br>
-colunas stats a lvl18 <br>
-pipeline(no fim) <br>
+## Instructions for installation
+
+docker build . --rm -t pri_solr
+docker run -it --rm --name my_pri_solr -p 8983:8983 pri_solr 
+
+Acesso na Porta: 
+
+http://localhost:8983/solr/#/champions 

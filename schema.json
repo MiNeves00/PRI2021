@@ -1,0 +1,172 @@
+{
+	"add-field-type": [
+        {
+            "name":"smallText",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
+                ]
+            }
+        },
+        {
+            "name":"bigText",
+            "class":"solr.TextField",
+            "indexAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
+                ]
+            },
+            "queryAnalyzer":{
+                "tokenizer":{
+                    "class":"solr.StandardTokenizerFactory"
+                },
+                "filters":[
+                    {"class":"solr.ASCIIFoldingFilterFactory", "preserveOriginal":true},
+                    {"class":"solr.LowerCaseFilterFactory"},
+                    {"class":"solr.NGramTokenizerFactory", "minGramSize":3 ,"maxGramSize":8},
+
+                    {"class":"solr.ClassicFilterFactory"},
+                    {"class":"solr.EnglishPossessiveFilterFactory"}
+
+                    
+                ]
+            }
+        }
+
+
+
+
+    ],
+    
+    
+    
+    
+    
+
+             
+
+
+
+    
+    "add-field": [
+        {
+            "name": "name",
+            "type": "smallText",
+            "indexed": true
+        },
+        {
+            "name": "title",
+            "type": "bigText",
+            "indexed": true
+        },
+        {
+            "name": "tags",
+            "type": "smallText",
+            "indexed": true
+        },
+        {
+            "name":"lore",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name": "allytips",
+            "type": "bigText",
+            "indexed": true
+        },
+        {
+            "name": "enemytips",
+            "type": "bigText",
+            "indexed": true
+        },
+        {
+
+            "name": "skins",
+            "type": "smallText",
+            "indexed": true
+        },
+        {
+            "name":"spells__Q",
+            "type":"smallText",
+            "indexed":true
+        },
+        {
+            "name":"spells__Q_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__W",
+            "type":"smallText",
+            "indexed":true
+        },
+        {
+            "name":"spells__W_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__E",
+            "type":"smallText",
+            "indexed":true
+        },
+        {
+            "name":"spells__E_description",
+            "type":"bigText",
+            "indexed":true
+        },
+        {
+            "name":"spells__R",
+            "type":"smallText",
+            "indexed":true
+        },
+        {
+            "name":"spells__R_description",
+            "type":"bigText",
+            "indexed":true
+	},
+        {
+            "name":"passive__name",
+            "type":"smallText",
+            "indexed":true
+        },
+        {
+            "name":"passive__description",
+            "type":"bigText",
+            "indexed":true
+        }
+
+    ]
+    
+}
